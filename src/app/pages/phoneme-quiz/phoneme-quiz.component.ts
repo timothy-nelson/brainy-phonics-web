@@ -8,19 +8,7 @@ import badExamples from '../../../assets/json/bad-assets.json';
 import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
-import {Vowels} from '../../types/vowels';
-import {ConsonantBlends} from '../../types/consonantBlends';
-import {Consonants} from '../../types/consonants';
-import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
-import {VowelPairs} from '../../types/vowelPairs';
-import {Kindergarten} from '../../types/kindergarten';
 import {PhonemesService} from '../../services/phonemes.service';
-import {VowelsService} from '../../services/vowels.service';
-import {ConsonantBlendsService} from '../../services/consonantBlends.service';
-import {ConsonantsService} from '../../services/consonants.service';
-import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
-import {VowelPairsService} from '../../services/vowelPairs.service';
-import {KindergartenService} from '../../services/kindergarten.service';
 import {ChangeDetectorRef} from '@angular/core';
 
 @Component({
