@@ -37,8 +37,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     rhymeAudio: HTMLAudioElement;
     correctAudio: HTMLAudioElement;
 
-    data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
-    phoneme: Phoneme | Vowels | ConsonantBlends | Consonants | VowelConsonantBlends | VowelPairs | Kindergarten;
+    data: Phoneme[];
+    phoneme: Phoneme;
     quizPhoneme: Phoneme;
     list: string;
     quizAll: string;
@@ -73,12 +73,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         private activatedRoute: ActivatedRoute,
 
         private phonemesService: PhonemesService,
-        private vowelsService: VowelsService,
-        private consonantBlendsService: ConsonantBlendsService,
-        private consonantsService: ConsonantsService,
-        private vowelConsonantBlendsService: VowelConsonantBlendsService,
-        private vowelPairsService: VowelPairsService,
-        private kindergartenService: KindergartenService,
         private changeDetectorRef: ChangeDetectorRef
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
