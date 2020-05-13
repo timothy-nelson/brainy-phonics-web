@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
+import {Component, ElementRef, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
@@ -8,7 +8,19 @@ import badExamples from '../../../assets/json/bad-assets.json';
 import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
+import {Vowels} from '../../types/vowels';
+import {ConsonantBlends} from '../../types/consonantBlends';
+import {Consonants} from '../../types/consonants';
+import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
+import {VowelPairs} from '../../types/vowelPairs';
+import {Kindergarten} from '../../types/kindergarten';
 import {PhonemesService} from '../../services/phonemes.service';
+import {VowelsService} from '../../services/vowels.service';
+import {ConsonantBlendsService} from '../../services/consonantBlends.service';
+import {ConsonantsService} from '../../services/consonants.service';
+import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
+import {VowelPairsService} from '../../services/vowelPairs.service';
+import {KindergartenService} from '../../services/kindergarten.service';
 import {ChangeDetectorRef} from '@angular/core';
 
 @Component({
@@ -37,8 +49,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     rhymeAudio: HTMLAudioElement;
     correctAudio: HTMLAudioElement;
 
-    data: Phoneme[];
-    phoneme: Phoneme;
+    data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
+    phoneme: Phoneme | Vowels | ConsonantBlends | Consonants | VowelConsonantBlends | VowelPairs | Kindergarten;
     quizPhoneme: Phoneme;
     list: string;
     quizAll: string;
@@ -67,11 +79,18 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         private transferService: TransferLetterService,
         private userDataService: UserDataService,
         private phonemeProgressService: ProgressService,
+        private elem: ElementRef,
         private router: Router,
         private location: Location,
         private activatedRoute: ActivatedRoute,
 
         private phonemesService: PhonemesService,
+        private vowelsService: VowelsService,
+        private consonantBlendsService: ConsonantBlendsService,
+        private consonantsService: ConsonantsService,
+        private vowelConsonantBlendsService: VowelConsonantBlendsService,
+        private vowelPairsService: VowelPairsService,
+        private kindergartenService: KindergartenService,
         private changeDetectorRef: ChangeDetectorRef
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
