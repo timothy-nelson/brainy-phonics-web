@@ -37,6 +37,7 @@ import {SecretStuffComponent} from './pages/secret-stuff/secret-stuff.component'
 import {LoginComponent} from './pages/login';
 import {WordStructuresComponent} from './pages/word-structures';
 import {WordStructuresDetailsComponent} from './pages/word-structures/word-structures-details';
+import { FiguresOfSpeechDetailsComponent } from './pages/word-structures/figures-of-speech-details/figures-of-speech-details.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import {WordStructuresDetailsComponent} from './pages/word-structures/word-struc
     SecretStuffComponent,
     LoginComponent,
     WordStructuresComponent,
-    WordStructuresDetailsComponent
+    WordStructuresDetailsComponent,
+    FiguresOfSpeechDetailsComponent
   ],
   imports: [
     BrowserModule,
