@@ -9,7 +9,7 @@
       background-color: #FFFFFF !important;
   }
 
-  #wordstructures{
+  #base-and-endings{
     background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
     background-position: center;
     margin-left: -10vh;
@@ -17,7 +17,7 @@
     cursor: pointer;
   }
 
-  #figures-of-speech{
+  #comparative-endings{
     background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
     background-position: center;
     margin-left: -10vh;
@@ -25,7 +25,28 @@
     cursor: pointer;
   }
 
-  .row {
+  #plural-endings{
+    background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: -10vh;
+    background-size: 38vh;
+    cursor: pointer;
+  }
+
+  #irregular-plurals{
+    background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: -10vh;
+    background-size: 38vh;
+    cursor: pointer;
+  }
+
+  .row1 {
+    float: center;
+    margin-left: 20vh;
+  }
+
+  .row2{
     float: center;
     margin-left: 20vh;
   }

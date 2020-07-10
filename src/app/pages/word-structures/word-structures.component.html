@@ -1,6 +1,11 @@
 <div id='background'>
     <div id='main-body'>
-        <img src='/assets/img/backgrounds/construction.png'>
+        <div class='column'> 
+            <div class="row">
+            <button mat-icon-button class='category_button' id='wordstructures' (mouseenter)='playAudio($event)' routerLink='/word-structures-details'></button>
+            <button mat-icon-button class='category_button' id='figures-of-speech' (mouseenter)='playAudio($event)' routerLink='/figures-of-speech-details'></button>
+            </div>
+        </div>
     </div>
     <div id='side-menu'>
         <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>

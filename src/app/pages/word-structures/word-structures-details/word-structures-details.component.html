@@ -1,0 +1,18 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'> 
+            <div class="row1">
+                <button mat-icon-button class='category_button' id='base-and-endings' (mouseenter)='playAudio($event)' routerLink='/base-words-details'></button>
+                <button mat-icon-button class='category_button' id='comparative-endings' (mouseenter)='playAudio($event)' routerLink='/comparative-endings-details'></button>
+            </div>
+            <div class="row2">
+                <button mat-icon-button class='category_button' id='plural-endings' (mouseenter)='playAudio($event)' routerLink='/plural-endings-details'></button>
+                <button mat-icon-button class='category_button' id='irregular-plurals' (mouseenter)='playAudio($event)' routerLink='/irregular-plurals-details'></button>
+            </div>
+        </div>
+    </div>
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>
+    </div>
+</div>

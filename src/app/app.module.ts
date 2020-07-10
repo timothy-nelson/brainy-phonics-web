@@ -36,6 +36,7 @@ import {NobodysBetterComponent} from './pages/nobodys-better/nobodys-better.comp
 import {SecretStuffComponent} from './pages/secret-stuff/secret-stuff.component';
 import {LoginComponent} from './pages/login';
 import {WordStructuresComponent} from './pages/word-structures';
+import {WordStructuresDetailsComponent} from './pages/word-structures/word-structures-details';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import {WordStructuresComponent} from './pages/word-structures';
     NobodysBetterComponent,
     SecretStuffComponent,
     LoginComponent,
-    WordStructuresComponent
+    WordStructuresComponent,
+    WordStructuresDetailsComponent
   ],
   imports: [
     BrowserModule,

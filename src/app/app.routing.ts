@@ -30,6 +30,7 @@ import {NobodysBetterComponent} from './pages/nobodys-better/nobodys-better.comp
 import {SecretStuffComponent} from './pages/secret-stuff/secret-stuff.component';
 import {LoginComponent} from './pages/login';
 import {WordStructuresComponent} from './pages/word-structures';
+import {WordStructuresDetailsComponent} from './pages/word-structures/word-structures-details';
 
 const routes: Routes = [
     {path: '', component: LoginComponent},
@@ -62,6 +63,7 @@ const routes: Routes = [
     {path: 'nobodys-better', component: NobodysBetterComponent},
     {path: 'secret-stuff', component: SecretStuffComponent},
     {path: 'word-structures', component: WordStructuresComponent},
+    {path: 'word-structures-details', component: WordStructuresDetailsComponent},
 
     // otherwise redirect to home
     {path: '**', redirectTo: ''}
