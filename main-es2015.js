@@ -413,6 +413,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row1\">\n                <button mat-icon-button class='category_button' id='onomatopoeia' (mouseenter)='playAudio($event)' routerLink='/onomatopoeia-details'></button>\n                <button mat-icon-button class='category_button' id='irony' (mouseenter)='playAudio($event)' routerLink='/irony-details'></button>\n            </div>\n            <div class=\"row2\">\n                <button mat-icon-button class='category_button' id='homophones' (mouseenter)='playAudio($event)' routerLink='/homophones-details'></button>\n                <button mat-icon-button class='category_button' id='homographs' (mouseenter)='playAudio($event)' routerLink='/homographs-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html ***!
+  \********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row1\">\n                <button mat-icon-button class='category_button' id='base-and-endings' (mouseenter)='playAudio($event)' routerLink='/base-words-details'></button>\n                <button mat-icon-button class='category_button' id='comparative-endings' (mouseenter)='playAudio($event)' routerLink='/comparative-endings-details'></button>\n            </div>\n            <div class=\"row2\">\n                <button mat-icon-button class='category_button' id='plural-endings' (mouseenter)='playAudio($event)' routerLink='/plural-endings-details'></button>\n                <button mat-icon-button class='category_button' id='irregular-plurals' (mouseenter)='playAudio($event)' routerLink='/irregular-plurals-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures.component.html":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures.component.html ***!
@@ -422,7 +448,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='main-body'>\n        <img src='/assets/img/backgrounds/construction.png'>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row\">\n            <button mat-icon-button class='category_button' id='wordstructures' (mouseenter)='playAudio($event)' routerLink='/word-structures-details'></button>\n            <button mat-icon-button class='category_button' id='figures-of-speech' (mouseenter)='playAudio($event)' routerLink='/figures-of-speech-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -786,6 +812,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./pages/secret-stuff/secret-stuff.component */ "./src/app/pages/secret-stuff/secret-stuff.component.ts");
 /* harmony import */ var _pages_login__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./pages/login */ "./src/app/pages/login/index.ts");
 /* harmony import */ var _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./pages/word-structures */ "./src/app/pages/word-structures/index.ts");
+/* harmony import */ var _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./pages/word-structures/word-structures-details */ "./src/app/pages/word-structures/word-structures-details/index.ts");
+/* harmony import */ var _pages_word_structures_figures_of_speech_details_figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./pages/word-structures/figures-of-speech-details/figures-of-speech-details.component */ "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts");
+
+
 
 
 
@@ -861,7 +891,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_35__["NobodysBetterComponent"],
             _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__["SecretStuffComponent"],
             _pages_login__WEBPACK_IMPORTED_MODULE_37__["LoginComponent"],
-            _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"]
+            _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"],
+            _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_39__["WordStructuresDetailsComponent"],
+            _pages_word_structures_figures_of_speech_details_figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_40__["FiguresOfSpeechDetailsComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -920,6 +952,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./pages/secret-stuff/secret-stuff.component */ "./src/app/pages/secret-stuff/secret-stuff.component.ts");
 /* harmony import */ var _pages_login__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pages/login */ "./src/app/pages/login/index.ts");
 /* harmony import */ var _pages_word_structures__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./pages/word-structures */ "./src/app/pages/word-structures/index.ts");
+/* harmony import */ var _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./pages/word-structures/word-structures-details */ "./src/app/pages/word-structures/word-structures-details/index.ts");
+/* harmony import */ var _pages_word_structures_figures_of_speech_details__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./pages/word-structures/figures-of-speech-details */ "./src/app/pages/word-structures/figures-of-speech-details/index.ts");
+
+
 
 
 
@@ -983,6 +1019,8 @@ const routes = [
     { path: 'nobodys-better', component: _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_28__["NobodysBetterComponent"] },
     { path: 'secret-stuff', component: _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_29__["SecretStuffComponent"] },
     { path: 'word-structures', component: _pages_word_structures__WEBPACK_IMPORTED_MODULE_31__["WordStructuresComponent"] },
+    { path: 'word-structures-details', component: _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_32__["WordStructuresDetailsComponent"] },
+    { path: 'figures-of-speech-details', component: _pages_word_structures_figures_of_speech_details__WEBPACK_IMPORTED_MODULE_33__["FiguresOfSpeechDetailsComponent"] },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
@@ -1179,18 +1217,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlphabetQuizComponent", function() { return AlphabetQuizComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/transfer-letter-service.service */ "./src/app/services/transfer-letter-service.service.ts");
-/* harmony import */ var _services_progress_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/progress.service */ "./src/app/services/progress.service.ts");
-/* harmony import */ var _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../services/alphabet-letters.service */ "./src/app/services/alphabet-letters.service.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-
-
-
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/transfer-letter-service.service */ "./src/app/services/transfer-letter-service.service.ts");
+/* harmony import */ var _services_progress_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/progress.service */ "./src/app/services/progress.service.ts");
+/* harmony import */ var _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/alphabet-letters.service */ "./src/app/services/alphabet-letters.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
 
 
 
@@ -1200,15 +1233,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AlphabetQuizComponent = class AlphabetQuizComponent {
-    constructor(storage, transferService, letterProgressService, alphabetLettersService, router, location, activatedRoute, http) {
-        this.storage = storage;
+    constructor(transferService, letterProgressService, alphabetLettersService, router, location, activatedRoute) {
         this.transferService = transferService;
         this.letterProgressService = letterProgressService;
         this.alphabetLettersService = alphabetLettersService;
         this.router = router;
         this.location = location;
         this.activatedRoute = activatedRoute;
-        this.http = http;
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         this.letterList = this.alphabetLettersService.dataImport(false);
@@ -1230,9 +1261,6 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
         this.letterAnimate4 = false;
         // audio
         this.letterPlayAudio = true;
-        // Analytics
-        this.numberOfAttempts = 0;
-        this.answerStartTime = 0;
     }
     ;
     ngOnInit() {
@@ -1273,7 +1301,6 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
         }
     }
     correctAnswer(correct) {
-        this.numberOfAttempts++;
         if (correct == this.ex1) {
             this.letterAnimate1 = true;
         }
@@ -1305,11 +1332,11 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
             this.letter = this.letterList[key];
             this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         }
-        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(200).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(200).then(() => {
             this.correctSound.play();
             this.loadNew();
         });
-        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(2000).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(2000).then(() => {
             this.playAudio();
         });
         if (this.isFirstAttempt) {
@@ -1323,10 +1350,8 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
         else {
             this.letterProgressService.addCoins("letter" + this.letter.letter, 1);
         }
-        this.submitAnalyticEvent(this.letter.letter).subscribe(r => console.log(r));
     }
     incorrectAnswer() {
-        this.numberOfAttempts++;
         if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
@@ -1347,26 +1372,6 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
         this.isFirstAttempt = true;
-        // Analytics
-        this.numberOfAttempts = 0;
-        this.answerStartTime = Date.now();
-    }
-    submitAnalyticEvent(letter) {
-        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpHeaders"]({
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${this.storage.get('token')}`
-        });
-        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
-            student: this.storage.get('user_id'),
-            program: '5f087dc650084d0851a04b5b',
-            focus_item_name: `alphabet_${letter}`,
-            focus_item_unit: this.storage.get('unit'),
-            focus_item_subunit: "alphabet",
-            time_spent: Date.now() - this.answerStartTime,
-            correct_on: this.numberOfAttempts,
-        }, {
-            headers,
-        });
     }
     pickRandom(current) {
         var copiedList = [...this.letterList];
@@ -1391,24 +1396,18 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
     }
 };
 AlphabetQuizComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"],] }] },
-    { type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__["TransferLetterService"] },
-    { type: _services_progress_service__WEBPACK_IMPORTED_MODULE_6__["ProgressService"] },
-    { type: _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_7__["AlphabetLettersService"] },
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
-    { type: _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"] },
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] },
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"] }
+    { type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__["TransferLetterService"] },
+    { type: _services_progress_service__WEBPACK_IMPORTED_MODULE_5__["ProgressService"] },
+    { type: _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_6__["AlphabetLettersService"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
+    { type: _angular_common__WEBPACK_IMPORTED_MODULE_7__["Location"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
 ];
 AlphabetQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-        providedIn: 'root'
-    }),
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./alphabet-quiz.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/alphabet-quiz/alphabet-quiz.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./alphabet-quiz.component.css */ "./src/app/pages/alphabet-quiz/alphabet-quiz.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]))
+    })
 ], AlphabetQuizComponent);
 
 
@@ -1525,19 +1524,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
-
 
 
 
 let FirstCategoriesComponent = class FirstCategoriesComponent {
-    constructor(storage, location) {
-        this.storage = storage;
+    constructor(location) {
         this.location = location;
-    }
-    ngOnInit() {
-        this.storage.set('unit', 'First-Grade');
     }
     playAudio(event) {
         this.category = new Audio();
@@ -1557,15 +1549,13 @@ let FirstCategoriesComponent = class FirstCategoriesComponent {
     }
 };
 FirstCategoriesComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
     { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
 ];
 FirstCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./first-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/first-categories/first-categories.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./first-categories.component.css */ "./src/app/pages/first-categories/first-categories.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], FirstCategoriesComponent);
 
 
@@ -1951,19 +1941,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
-
 
 
 
 let KCategoriesComponent = class KCategoriesComponent {
-    constructor(storage, location) {
-        this.storage = storage;
+    constructor(location) {
         this.location = location;
-    }
-    ngOnInit() {
-        this.storage.set('unit', 'Kindergarten');
     }
     playAudio(event) {
         this.category = new Audio();
@@ -1983,15 +1966,13 @@ let KCategoriesComponent = class KCategoriesComponent {
     }
 };
 KCategoriesComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
     { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
 ];
 KCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./k-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/k-categories/k-categories.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./k-categories.component.css */ "./src/app/pages/k-categories/k-categories.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], KCategoriesComponent);
 
 
@@ -2574,8 +2555,7 @@ let LoginComponent = class LoginComponent {
         if (this.selectedImg.length === 5) {
             var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
             this.userService.login(passcode)
-                .subscribe((res) => {
-                this.userService.setResponse(res);
+                .subscribe(res => {
                 this.router.navigate(['home']);
             }, err => {
                 alert(err['error']['message']);
@@ -3112,24 +3092,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhonemeQuizComponent", function() { return PhonemeQuizComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/transfer-letter-service.service */ "./src/app/services/transfer-letter-service.service.ts");
-/* harmony import */ var _services_progress_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/progress.service */ "./src/app/services/progress.service.ts");
-/* harmony import */ var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/json/phonemes.json */ "./src/assets/json/phonemes.json");
-var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/phonemes.json */ "./src/assets/json/phonemes.json", 1);
-/* harmony import */ var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/json/bad-assets.json */ "./src/assets/json/bad-assets.json");
-var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/bad-assets.json */ "./src/assets/json/bad-assets.json", 1);
-/* harmony import */ var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../assets/json/incorrect-schwas.json */ "./src/assets/json/incorrect-schwas.json");
-var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/incorrect-schwas.json */ "./src/assets/json/incorrect-schwas.json", 1);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../services/phonemes.service */ "./src/app/services/phonemes.service.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-
-
-
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/transfer-letter-service.service */ "./src/app/services/transfer-letter-service.service.ts");
+/* harmony import */ var _services_progress_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/progress.service */ "./src/app/services/progress.service.ts");
+/* harmony import */ var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../assets/json/phonemes.json */ "./src/assets/json/phonemes.json");
+var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/phonemes.json */ "./src/assets/json/phonemes.json", 1);
+/* harmony import */ var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../assets/json/bad-assets.json */ "./src/assets/json/bad-assets.json");
+var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/bad-assets.json */ "./src/assets/json/bad-assets.json", 1);
+/* harmony import */ var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../assets/json/incorrect-schwas.json */ "./src/assets/json/incorrect-schwas.json");
+var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../assets/json/incorrect-schwas.json */ "./src/assets/json/incorrect-schwas.json", 1);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../services/phonemes.service */ "./src/app/services/phonemes.service.ts");
 
 
 
@@ -3143,8 +3118,7 @@ var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9___namespace = 
 
 
 let PhonemeQuizComponent = class PhonemeQuizComponent {
-    constructor(storage, transferService, phonemeProgressService, router, location, activatedRoute, phonemesService, changeDetectorRef, http) {
-        this.storage = storage;
+    constructor(transferService, phonemeProgressService, router, location, activatedRoute, phonemesService, changeDetectorRef) {
         this.transferService = transferService;
         this.phonemeProgressService = phonemeProgressService;
         this.router = router;
@@ -3152,7 +3126,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         this.activatedRoute = activatedRoute;
         this.phonemesService = phonemesService;
         this.changeDetectorRef = changeDetectorRef;
-        this.http = http;
         this.begin = false;
         this.quizNumber = 0;
         this.puzzlePieceImages = [];
@@ -3208,10 +3181,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         var rng = LCG(hash);
         // Shuffle order of puzzle pieces being displayed
         this.puzzlePieceImages.sort(function () { return rng() - 0.5; });
-        // Analytics
-        this.correctAnswerValue = '';
-        this.numberOfAttempts = 0;
-        this.answerStartTime = 0;
     }
     goBack() {
         this.transferService.setData(this.phoneme);
@@ -3227,7 +3196,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         this.longVowelList = [];
         //Only generate the list if the phoneme selected is a vowel sound
         if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
-            _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.forEach(element => {
+            _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__.forEach(element => {
                 if (element["category"].includes("V-long") && !element["id"].includes(this.phoneme.id.charAt(0))) {
                     this.longVowelList = [].concat(this.longVowelList, element["quiz-words"]);
                 }
@@ -3235,7 +3204,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         }
         //Generate a list for schwas
         if (this.phoneme.category.includes("V-schwa")) {
-            this.schwasList = _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9__;
+            this.schwasList = _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8__;
         }
         this.correctAudio = new Audio();
         this.correctAudio.src = '/assets/audio/buttons/correct.mp3';
@@ -3250,7 +3219,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         var examples = this.generateExamples();
         var temp = examples[this.correctAnswer];
         examples[this.correctAnswer] = examples[0];
-        this.correctAnswerValue = examples[this.correctAnswer];
         examples[0] = temp;
         this.img1 = '/assets/img/sight-words/' + examples[0].replace(/\s/g, '') + '.png';
         this.img2 = '/assets/img/sight-words/' + examples[1].replace(/\s/g, '') + '.png';
@@ -3265,21 +3233,21 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         this.phonemeAudio.onended = () => {
             this.phonemeAnimate = false;
             this.ex1Animate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
                 this.ex1Audio.play();
             });
         };
         this.ex1Audio.onended = () => {
             this.ex1Animate = false;
             this.ex2Animate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
                 this.ex2Audio.play();
             });
         };
         this.ex2Audio.onended = () => {
             this.ex2Animate = false;
             this.ex3Animate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
                 this.ex3Audio.play();
             });
         };
@@ -3288,9 +3256,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         };
         this.isFirstAttempt = true;
         this.hasGuessed = false;
-        // Analytics
-        this.numberOfAttempts = 0;
-        this.answerStartTime = Date.now();
     }
     ngAfterViewInit() {
         if (this.capital) {
@@ -3342,7 +3307,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
             this.phonemeAudio.onended = () => {
                 this.phonemeAnimate = false;
                 this.ex1Animate = true;
-                Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
+                Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
                     this.ex1Audio.play();
                 });
             };
@@ -3350,7 +3315,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         this.phonemeAudio.play();
     }
     onCorrect() {
-        this.numberOfAttempts++;
         this.quizNumber++;
         var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
         if (this.isFirstAttempt) {
@@ -3377,7 +3341,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         else if (this.correctAnswer == 2) {
             this.ex3CorrectAnimate = true;
         }
-        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(200).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(200).then(() => {
             this.correctAudio.play();
         });
         this.correctAudio.onended = () => {
@@ -3385,13 +3349,12 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
             this.ex2CorrectAnimate = false;
             this.ex3CorrectAnimate = false;
         };
-        this.submitAnalyticEvent(this.phoneme.id).subscribe(r => console.log(r));
         if (this.phoneme.puzzlePiecesEarned == 12) {
             // Add checkmark
             this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
             // Update puzzle view
             this.puzzleAnimate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
                 this.puzzleAnimate = false;
                 this.changeDetectorRef.detectChanges();
             });
@@ -3402,7 +3365,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
             }
             else {
                 this.puzzleComplete = true;
-                Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(1000).then(() => {
+                Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(1000).then(() => {
                     this.loadNew();
                 });
             }
@@ -3410,22 +3373,19 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         else {
             // Update puzzle view
             this.puzzleAnimate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
                 this.puzzleAnimate = false;
                 this.changeDetectorRef.detectChanges();
             });
             this.isFirstAttempt = true;
-            // Analytics
-            this.numberOfAttempts = 0;
-            this.answerStartTime = Date.now();
             // Update examples
             if (this.quizAll) {
-                Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
+                Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
                     window.location.reload();
                 });
             }
             else {
-                Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(1500).then(() => {
+                Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(1500).then(() => {
                     this.loadNew();
                 });
             }
@@ -3553,7 +3513,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         if (this.phoneme.category.includes("CG") && example.includes("j")) {
             return false;
         }
-        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__.includes(example);
+        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__.includes(example);
     }
     isValidSecondNegativeExample(example, positiveExamples, firstNegative) {
         if (example == firstNegative) {
@@ -3638,7 +3598,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         if (this.phoneme.category.includes("CG") && example.includes("j")) {
             return false;
         }
-        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__.includes(example);
+        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__.includes(example);
     }
     generateNegativeExample(positiveExamples) {
         var example;
@@ -3655,7 +3615,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         return example;
     }
     randomQuizWord() {
-        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.length)]["quiz-words"];
+        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__.length)]["quiz-words"];
         //Use only the long vowel list if the quiz phoneme is a vowel sound
         if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
             quizWords = this.longVowelList;
@@ -3694,7 +3654,6 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         }
     }
     incorrectAnswer() {
-        this.numberOfAttempts++;
         if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
@@ -3706,44 +3665,21 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         }
         this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
     }
-    submitAnalyticEvent(phonemeId) {
-        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpHeaders"]({
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${this.storage.get('token')}`
-        });
-        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
-            student: this.storage.get('user_id'),
-            program: '5f087dc650084d0851a04b5b',
-            focus_item_name: `phoneme_${phonemeId}`,
-            focus_item_unit: this.storage.get('unit'),
-            focus_item_subunit: "phoneme",
-            time_spent: Date.now() - this.answerStartTime,
-            correct_on: this.numberOfAttempts,
-        }, {
-            headers,
-        });
-    }
 };
 PhonemeQuizComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"],] }] },
-    { type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__["TransferLetterService"] },
-    { type: _services_progress_service__WEBPACK_IMPORTED_MODULE_6__["ProgressService"] },
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
-    { type: _angular_common__WEBPACK_IMPORTED_MODULE_10__["Location"] },
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] },
-    { type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__["PhonemesService"] },
-    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] },
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"] }
+    { type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__["TransferLetterService"] },
+    { type: _services_progress_service__WEBPACK_IMPORTED_MODULE_5__["ProgressService"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
+    { type: _angular_common__WEBPACK_IMPORTED_MODULE_9__["Location"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
+    { type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__["PhonemesService"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
 ];
 PhonemeQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-        providedIn: 'root'
-    }),
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./phoneme-quiz.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/phoneme-quiz/phoneme-quiz.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./phoneme-quiz.component.css */ "./src/app/pages/phoneme-quiz/phoneme-quiz.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]))
+    })
 ], PhonemeQuizComponent);
 
 
@@ -3795,19 +3731,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
-
 
 
 
 let PrekCategoriesComponent = class PrekCategoriesComponent {
-    constructor(storage, location) {
-        this.storage = storage;
+    constructor(location) {
         this.location = location;
-    }
-    ngOnInit() {
-        this.storage.set('unit', 'PRE-K');
     }
     playAudio(event) {
         // this.category = new Audio();
@@ -3822,15 +3751,13 @@ let PrekCategoriesComponent = class PrekCategoriesComponent {
     }
 };
 PrekCategoriesComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
     { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
 ];
 PrekCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./prek-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/prek-categories/prek-categories.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./prek-categories.component.css */ "./src/app/pages/prek-categories/prek-categories.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], PrekCategoriesComponent);
 
 
@@ -4090,19 +4017,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
-
 
 
 
 let SecondCategoriesComponent = class SecondCategoriesComponent {
-    constructor(storage, location) {
-        this.storage = storage;
+    constructor(location) {
         this.location = location;
-    }
-    ngOnInit() {
-        this.storage.set('unit', 'Second-Grade');
     }
     playAudio(event) {
         this.category = new Audio();
@@ -4117,15 +4037,13 @@ let SecondCategoriesComponent = class SecondCategoriesComponent {
     }
 };
 SecondCategoriesComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
     { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
 ];
 SecondCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./second-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/second-categories/second-categories.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./second-categories.component.css */ "./src/app/pages/second-categories/second-categories.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], SecondCategoriesComponent);
 
 
@@ -4390,19 +4308,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
-
 
 
 
 let ThirdCategoriesComponent = class ThirdCategoriesComponent {
-    constructor(storage, location) {
-        this.storage = storage;
+    constructor(location) {
         this.location = location;
-    }
-    ngOnInit() {
-        this.storage.set('unit', 'Third-Grade');
     }
     playAudio(event) {
         this.category = new Audio();
@@ -4417,15 +4328,13 @@ let ThirdCategoriesComponent = class ThirdCategoriesComponent {
     }
 };
 ThirdCategoriesComponent.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
     { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
 ];
 ThirdCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./third-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/third-categories/third-categories.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./third-categories.component.css */ "./src/app/pages/third-categories/third-categories.component.css")).default]
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], ThirdCategoriesComponent);
 
 
@@ -4666,6 +4575,78 @@ ThirdVowelsDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css":
+/*!*********************************************************************************************************!*\
+  !*** ./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #onomatopoeia{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #irony{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #homophones{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #homographs{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row1 {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .row2{\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL2ZpZ3VyZXMtb2Ytc3BlZWNoLWRldGFpbHMvZmlndXJlcy1vZi1zcGVlY2gtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGlHQUFpRztJQUNqRywyQkFBMkI7SUFDM0Isa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxhQUFhO0lBQ2IsaUJBQWlCO0VBQ25COztFQUVBO0lBQ0UsYUFBYTtJQUNiLGlCQUFpQjtFQUNuQjs7RUFFQTtJQUNFLFdBQVc7SUFDWCxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixpQkFBaUI7RUFDbkI7O0VBRUE7O0lBRUUsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjs7RUFFQTtNQUNJLFlBQVk7TUFDWix5QkFBeUI7RUFDN0IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy93b3JkLXN0cnVjdHVyZXMvZmlndXJlcy1vZi1zcGVlY2gtZGV0YWlscy9maWd1cmVzLW9mLXNwZWVjaC1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgICB3aWR0aDogMTY5Ljd2aDtcbiAgICBoZWlnaHQ6IDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDQwdmg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIFxuICAjYmFja2dyb3VuZCB7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGICFpbXBvcnRhbnQ7XG4gIH1cblxuICAjb25vbWF0b3BvZWlhe1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNpcm9ueXtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAjaG9tb3Bob25lc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAjaG9tb2dyYXBoc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93MSB7XG4gICAgZmxvYXQ6IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogMjB2aDtcbiAgfVxuXG4gIC5yb3cye1xuICAgIGZsb2F0OiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IDIwdmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9ue1xuICAgIHdpZHRoOiAzOHZoO1xuICAgIGhlaWdodDogMjZ2aDtcbiAgICBtYXJnaW46IDF2aCA1dmggMHZoIDB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIH1cblxuICAuY29sdW1uXG4gIHtcbiAgICBwYWRkaW5nLXRvcDogNDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDEwdmg7XG4gIH1cblxuICBpbWcge1xuICAgICAgaGVpZ2h0OiAzMHZoO1xuICAgICAgbWFyZ2luOiAzMHZoIDB2aCAwdmggMTB2aDtcbiAgfSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts":
+/*!********************************************************************************************************!*\
+  !*** ./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts ***!
+  \********************************************************************************************************/
+/*! exports provided: FiguresOfSpeechDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FiguresOfSpeechDetailsComponent", function() { return FiguresOfSpeechDetailsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+
+
+
+let FiguresOfSpeechDetailsComponent = class FiguresOfSpeechDetailsComponent {
+    constructor(location) {
+        this.location = location;
+    }
+    ngOnInit() {
+    }
+    goBack() {
+        this.location.back();
+    }
+};
+FiguresOfSpeechDetailsComponent.ctorParameters = () => [
+    { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
+];
+FiguresOfSpeechDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./figures-of-speech-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./figures-of-speech-details.component.css */ "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css")).default]
+    })
+], FiguresOfSpeechDetailsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/word-structures/figures-of-speech-details/index.ts":
+/*!**************************************************************************!*\
+  !*** ./src/app/pages/word-structures/figures-of-speech-details/index.ts ***!
+  \**************************************************************************/
+/*! exports provided: FiguresOfSpeechDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./figures-of-speech-details.component */ "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FiguresOfSpeechDetailsComponent", function() { return _figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_1__["FiguresOfSpeechDetailsComponent"]; });
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/app/pages/word-structures/index.ts":
 /*!************************************************!*\
   !*** ./src/app/pages/word-structures/index.ts ***!
@@ -4685,6 +4666,78 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/app/pages/word-structures/word-structures-details/index.ts":
+/*!************************************************************************!*\
+  !*** ./src/app/pages/word-structures/word-structures-details/index.ts ***!
+  \************************************************************************/
+/*! exports provided: WordStructuresDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _word_structures_details_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./word-structures-details.component */ "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WordStructuresDetailsComponent", function() { return _word_structures_details_component__WEBPACK_IMPORTED_MODULE_1__["WordStructuresDetailsComponent"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css":
+/*!*****************************************************************************************************!*\
+  !*** ./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #base-and-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #comparative-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #plural-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #irregular-plurals{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row1 {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .row2{\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy1kZXRhaWxzL3dvcmQtc3RydWN0dXJlcy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxvQ0FBb0M7RUFDeEM7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGlHQUFpRztJQUNqRywyQkFBMkI7SUFDM0Isa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGFBQWE7SUFDYixpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxhQUFhO0lBQ2IsaUJBQWlCO0VBQ25COztFQUVBO0lBQ0UsV0FBVztJQUNYLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLGlCQUFpQjtFQUNuQjs7RUFFQTs7SUFFRSxpQkFBaUI7SUFDakIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksWUFBWTtNQUNaLHlCQUF5QjtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dvcmQtc3RydWN0dXJlcy93b3JkLXN0cnVjdHVyZXMtZGV0YWlscy93b3JkLXN0cnVjdHVyZXMtZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICB9XG5cbiAgI2Jhc2UtYW5kLWVuZGluZ3N7XG4gICAgYmFja2dyb3VuZDogdXJsKCcvLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL1BsYWNlaG9sZGVyXFwgYnV0dG9uLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAtMTB2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM4dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG5cbiAgI2NvbXBhcmF0aXZlLWVuZGluZ3N7XG4gICAgYmFja2dyb3VuZDogdXJsKCcvLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL1BsYWNlaG9sZGVyXFwgYnV0dG9uLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAtMTB2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM4dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG5cbiAgI3BsdXJhbC1lbmRpbmdze1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNpcnJlZ3VsYXItcGx1cmFsc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93MSB7XG4gICAgZmxvYXQ6IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogMjB2aDtcbiAgfVxuXG4gIC5yb3cye1xuICAgIGZsb2F0OiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IDIwdmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9ue1xuICAgIHdpZHRoOiAzOHZoO1xuICAgIGhlaWdodDogMjZ2aDtcbiAgICBtYXJnaW46IDF2aCA1dmggMHZoIDB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIH1cblxuICAuY29sdW1uXG4gIHtcbiAgICBwYWRkaW5nLXRvcDogNDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDEwdmg7XG4gIH1cblxuICBpbWcge1xuICAgICAgaGVpZ2h0OiAzMHZoO1xuICAgICAgbWFyZ2luOiAzMHZoIDB2aCAwdmggMTB2aDtcbiAgfSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts":
+/*!****************************************************************************************************!*\
+  !*** ./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts ***!
+  \****************************************************************************************************/
+/*! exports provided: WordStructuresDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WordStructuresDetailsComponent", function() { return WordStructuresDetailsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+
+
+
+let WordStructuresDetailsComponent = class WordStructuresDetailsComponent {
+    constructor(location) {
+        this.location = location;
+    }
+    ngOnInit() {
+    }
+    goBack() {
+        this.location.back();
+    }
+};
+WordStructuresDetailsComponent.ctorParameters = () => [
+    { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] }
+];
+WordStructuresDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./word-structures-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./word-structures-details.component.css */ "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css")).default]
+    })
+], WordStructuresDetailsComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/pages/word-structures/word-structures.component.css":
 /*!*********************************************************************!*\
   !*** ./src/app/pages/word-structures/word-structures.component.css ***!
@@ -4694,7 +4747,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO01BQ0ksWUFBWTtNQUNaLHlCQUF5QjtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dvcmQtc3RydWN0dXJlcy93b3JkLXN0cnVjdHVyZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWJvZHkge1xuICAgIHdpZHRoOiAxNjkuN3ZoO1xuICAgIGhlaWdodDogMHZoO1xuICAgIHBhZGRpbmctbGVmdDogNDB2aDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgXG4gICNiYWNrZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgfVxuXG4gIGltZyB7XG4gICAgICBoZWlnaHQ6IDMwdmg7XG4gICAgICBtYXJnaW46IDMwdmggMHZoIDB2aCAxMHZoO1xuICB9Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #wordstructures{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #figures-of-speech{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGFBQWE7SUFDYixpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHVCQUF1QjtJQUN2QixZQUFZO0lBQ1osaUJBQWlCO0VBQ25COztFQUVBOztJQUVFLGlCQUFpQjtJQUNqQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxZQUFZO01BQ1oseUJBQXlCO0VBQzdCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICB9XG5cbiAgI3dvcmRzdHJ1Y3R1cmVze1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNmaWd1cmVzLW9mLXNwZWVjaHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93IHtcbiAgICBmbG9hdDogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAyMHZoO1xuICB9XG5cbiAgLmNhdGVnb3J5X2J1dHRvbntcbiAgICB3aWR0aDogMzh2aDtcbiAgICBoZWlnaHQ6IDI2dmg7XG4gICAgbWFyZ2luOiAxdmggNXZoIDB2aCAwdmg7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICB9XG5cbiAgLmNvbHVtblxuICB7XG4gICAgcGFkZGluZy10b3A6IDQwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiAxMHZoO1xuICB9XG5cbiAgaW1nIHtcbiAgICAgIGhlaWdodDogMzB2aDtcbiAgICAgIG1hcmdpbjogMzB2aCAwdmggMHZoIDEwdmg7XG4gIH0iXX0= */");
 
 /***/ }),
 
@@ -4719,6 +4772,19 @@ let WordStructuresComponent = class WordStructuresComponent {
         this.location = location;
     }
     ngOnInit() {
+    }
+    playAudio(event) {
+        this.category = new Audio();
+        if (event.target.id === 'wordstructures') {
+            this.category.src = '/assets/audio/buttons/word-structures.mp3';
+        }
+        else {
+            this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
+        }
+        if (this.category.src !== undefined) {
+            this.category.load();
+            this.category.play();
+        }
     }
     goBack() {
         this.location.back();
@@ -5178,36 +5244,27 @@ TransferLetterService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserService", function() { return UserService; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 
 
 
 let UserService = class UserService {
-    constructor(storage, http) {
-        this.storage = storage;
+    constructor(http) {
         this.http = http;
     }
     login(passcode) {
         this.user = passcode;
         return this.http.post('https://teacherportal.hearatale.com/api/session/student', { id: passcode });
     }
-    setResponse(res) {
-        this.storage.set('user_id', res.student._id);
-        this.storage.set('token', res.token);
-    }
 };
 UserService.ctorParameters = () => [
-    { type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"], decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"], args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"],] }] },
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
 ];
 UserService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
         providedIn: 'root'
-    }),
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))
+    })
 ], UserService);
 
 
