@@ -505,7 +505,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'C-begin'}\"></button>\n                <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'C-end'}\"></button>\n            </div>\n            <button mat-icon-button class='category_button' id='cg' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CG'}\"></button>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'CB-begin'}\"></button>\n                <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CB-end'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CB-3'}\"></button>\n                <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'C-silent'}\"></button>\n            </div>\n            <button mat-icon-button class='category_button' id='beginning-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CD-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CD-end'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'C-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'C-end'}\"></button>\n            <button mat-icon-button class='category_button' id='cg' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CG'}\"></button>\n            <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'CB-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CB-end'}\"></button>\n            <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CB-3'}\"></button>\n            <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'C-silent'}\"></button>\n            <button mat-icon-button class='category_button' id='beginning-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CD-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'CD-end'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
     /***/
   },
 
@@ -525,7 +525,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='short_vowels' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'V-short'}\"></button>\n                <button mat-icon-button class='category_button' id='long_vowels' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'V-long'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'VP'}\"></button>\n                <button mat-icon-button class='category_button' id='y_sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'Y'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='r' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'R'}\"></button>\n                <button mat-icon-button class='category_button' id='schwas' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'V-schwa'}\"></button>\n            </div>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <button mat-icon-button class='category_button' id='short_vowels' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '2nd', 'list': 'V-short'}\"></button>\n            <button mat-icon-button class='category_button' id='long_vowels' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'V-long'}\"></button>\n            <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'VP'}\"></button>\n            <button mat-icon-button class='category_button' id='y_sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'Y'}\"></button>\n            <button mat-icon-button class='category_button' id='r' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'R'}\"></button>\n            <button mat-icon-button class='category_button' id='schwas' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '2nd', 'list': 'V-schwa'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
     /***/
   },
 
@@ -585,7 +585,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'C-begin'}\"></button>\n                <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'C-end'}\"></button>\n            </div>\n            <button mat-icon-button class='category_button' id='cg' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CG'}\"></button>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'CB-begin'}\"></button>\n                <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CB-end'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CB-3'}\"></button>\n                <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'C-silent'}\"></button>\n            </div>\n            <button mat-icon-button class='category_button' id='beginning-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CD-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CD-end'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'C-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'C-end'}\"></button>\n            <button mat-icon-button class='category_button' id='cg' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CG'}\"></button>\n            <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'CB-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CB-end'}\"></button>\n            <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CB-3'}\"></button>\n            <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'C-silent'}\"></button>\n            <button mat-icon-button class='category_button' id='beginning-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CD-begin'}\"></button>\n            <button mat-icon-button class='category_button' id='ending-digraphs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'CD-end'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
     /***/
   },
 
@@ -625,47 +625,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='short_vowels' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'V-short'}\"></button>\n                <button mat-icon-button class='category_button' id='long_vowels' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'V-long'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'VP'}\"></button>\n                <button mat-icon-button class='category_button' id='y_sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'Y'}\"></button>\n            </div>\n            <div class='row'>\n                <button mat-icon-button class='category_button' id='r' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'R'}\"></button>\n                <button mat-icon-button class='category_button' id='schwas' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'V-schwa'}\"></button>\n            </div>\n            <button mat-icon-button class='category_button' id='silent-e' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'E'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html":
-  /*!************************************************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html ***!
-    \************************************************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppPagesWordStructuresFiguresOfSpeechDetailsFiguresOfSpeechDetailsComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row1\">\n                <button mat-icon-button class='category_button' id='onomatopoeia' (mouseenter)='playAudio($event)' routerLink='/onomatopoeia-details'></button>\n                <button mat-icon-button class='category_button' id='irony' (mouseenter)='playAudio($event)' routerLink='/irony-details'></button>\n            </div>\n            <div class=\"row2\">\n                <button mat-icon-button class='category_button' id='homophones' (mouseenter)='playAudio($event)' routerLink='/homophones-details'></button>\n                <button mat-icon-button class='category_button' id='homographs' (mouseenter)='playAudio($event)' routerLink='/homographs-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html":
-  /*!********************************************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html ***!
-    \********************************************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppPagesWordStructuresWordStructuresDetailsWordStructuresDetailsComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row1\">\n                <button mat-icon-button class='category_button' id='base-and-endings' (mouseenter)='playAudio($event)' routerLink='/base-words-details'></button>\n                <button mat-icon-button class='category_button' id='comparative-endings' (mouseenter)='playAudio($event)' routerLink='/comparative-endings-details'></button>\n            </div>\n            <div class=\"row2\">\n                <button mat-icon-button class='category_button' id='plural-endings' (mouseenter)='playAudio($event)' routerLink='/plural-endings-details'></button>\n                <button mat-icon-button class='category_button' id='irregular-plurals' (mouseenter)='playAudio($event)' routerLink='/irregular-plurals-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'>\n            <!-- <div class='row'> -->\n                <button mat-icon-button class='category_button' id='short_vowels' (mouseenter)='playAudio($event)' [routerLink]=\"['/list-select']\" [queryParams]=\"{'grade' : '3rd', 'list': 'V-short'}\"></button>\n                <button mat-icon-button class='category_button' id='long_vowels' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'V-long'}\"></button>\n            <!-- </div> -->\n            <!-- <div class='row'> -->\n                <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'VP'}\"></button>\n                <button mat-icon-button class='category_button' id='y_sounds' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'Y'}\"></button>\n            <!-- </div> -->\n            <!-- <div class='row'> -->\n                <button mat-icon-button class='category_button' id='r' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'R'}\"></button>\n                <button mat-icon-button class='category_button' id='schwas' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'V-schwa'}\"></button>\n            <!-- </div> -->\n            <button mat-icon-button class='category_button' id='silent-e' (mouseenter)='playAudio($event)' [routerLink]='[\"/list-select\"]' [queryParams]=\"{'grade' : '3rd', 'list': 'E'}\"></button>\n        </div>\n    </div>\n\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>\n    </div>\n</div>";
     /***/
   },
 
@@ -685,7 +645,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <div class='column'> \n            <div class=\"row\">\n            <button mat-icon-button class='category_button' id='wordstructures' (mouseenter)='playAudio($event)' routerLink='/word-structures-details'></button>\n            <button mat-icon-button class='category_button' id='figures-of-speech' (mouseenter)='playAudio($event)' routerLink='/figures-of-speech-details'></button>\n            </div>\n        </div>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <img src='/assets/img/backgrounds/construction.png'>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>";
     /***/
   },
 
@@ -1609,22 +1569,10 @@
     var _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
     /*! ./pages/word-structures */
     "./src/app/pages/word-structures/index.ts");
-    /* harmony import */
-
-
-    var _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(
-    /*! ./pages/word-structures/word-structures-details */
-    "./src/app/pages/word-structures/word-structures-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_word_structures_figures_of_speech_details_figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(
-    /*! ./pages/word-structures/figures-of-speech-details/figures-of-speech-details.component */
-    "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts");
 
     let AppModule = class AppModule {};
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _pages_home__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_9__["PhonemeCategoriesComponent"], _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"], _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_11__["PhonemeLearnComponent"], _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_12__["PhonemeQuizComponent"], _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_13__["AlphabetLearnComponent"], _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_14__["AlphabetQuizComponent"], _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_15__["ListSelectComponent"], _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_16__["CoinsComponent"], _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_17__["PuzzlesComponent"], _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_18__["PuzzleComponent"], _pages_prek_categories__WEBPACK_IMPORTED_MODULE_19__["PrekCategoriesComponent"], _pages_second_categories__WEBPACK_IMPORTED_MODULE_20__["SecondCategoriesComponent"], _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_21__["SecondVowelsDetailsComponent"], _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_22__["SecondConsonantsDetailsComponent"], _pages_third_categories__WEBPACK_IMPORTED_MODULE_23__["ThirdCategoriesComponent"], _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_24__["ThirdConsonantsDetailsComponent"], _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_25__["ThirdVowelsDetailsComponent"], _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_26__["ThirdVowelconsonantsDetailsComponent"], _pages_k_categories__WEBPACK_IMPORTED_MODULE_27__["KCategoriesComponent"], _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_28__["KLettersDetailsComponent"], _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_29__["KEndingSoundsDetailsComponent"], _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_30__["KBeginningSoundsDetailsComponent"], _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_31__["FirstCategoriesComponent"], _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_32__["FirstLettersDetailsComponent"], _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_33__["FirstConsonantsDetailsComponent"], _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_34__["FirstVowelsDetailsComponent"], _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_35__["NobodysBetterComponent"], _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__["SecretStuffComponent"], _pages_login__WEBPACK_IMPORTED_MODULE_37__["LoginComponent"], _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"], _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_39__["WordStructuresDetailsComponent"], _pages_word_structures_figures_of_speech_details_figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_40__["FiguresOfSpeechDetailsComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _pages_home__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_9__["PhonemeCategoriesComponent"], _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"], _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_11__["PhonemeLearnComponent"], _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_12__["PhonemeQuizComponent"], _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_13__["AlphabetLearnComponent"], _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_14__["AlphabetQuizComponent"], _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_15__["ListSelectComponent"], _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_16__["CoinsComponent"], _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_17__["PuzzlesComponent"], _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_18__["PuzzleComponent"], _pages_prek_categories__WEBPACK_IMPORTED_MODULE_19__["PrekCategoriesComponent"], _pages_second_categories__WEBPACK_IMPORTED_MODULE_20__["SecondCategoriesComponent"], _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_21__["SecondVowelsDetailsComponent"], _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_22__["SecondConsonantsDetailsComponent"], _pages_third_categories__WEBPACK_IMPORTED_MODULE_23__["ThirdCategoriesComponent"], _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_24__["ThirdConsonantsDetailsComponent"], _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_25__["ThirdVowelsDetailsComponent"], _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_26__["ThirdVowelconsonantsDetailsComponent"], _pages_k_categories__WEBPACK_IMPORTED_MODULE_27__["KCategoriesComponent"], _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_28__["KLettersDetailsComponent"], _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_29__["KEndingSoundsDetailsComponent"], _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_30__["KBeginningSoundsDetailsComponent"], _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_31__["FirstCategoriesComponent"], _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_32__["FirstLettersDetailsComponent"], _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_33__["FirstConsonantsDetailsComponent"], _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_34__["FirstVowelsDetailsComponent"], _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_35__["NobodysBetterComponent"], _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__["SecretStuffComponent"], _pages_login__WEBPACK_IMPORTED_MODULE_37__["LoginComponent"], _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing__WEBPACK_IMPORTED_MODULE_6__["appRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_4__["FlexLayoutModule"], angular_webstorage_service__WEBPACK_IMPORTED_MODULE_5__["StorageServiceModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })], AppModule);
@@ -1842,18 +1790,6 @@
     var _pages_word_structures__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
     /*! ./pages/word-structures */
     "./src/app/pages/word-structures/index.ts");
-    /* harmony import */
-
-
-    var _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
-    /*! ./pages/word-structures/word-structures-details */
-    "./src/app/pages/word-structures/word-structures-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_word_structures_figures_of_speech_details__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
-    /*! ./pages/word-structures/figures-of-speech-details */
-    "./src/app/pages/word-structures/figures-of-speech-details/index.ts");
 
     const routes = [{
       path: '',
@@ -1945,12 +1881,6 @@
     }, {
       path: 'word-structures',
       component: _pages_word_structures__WEBPACK_IMPORTED_MODULE_31__["WordStructuresComponent"]
-    }, {
-      path: 'word-structures-details',
-      component: _pages_word_structures_word_structures_details__WEBPACK_IMPORTED_MODULE_32__["WordStructuresDetailsComponent"]
-    }, {
-      path: 'figures-of-speech-details',
-      component: _pages_word_structures_figures_of_speech_details__WEBPACK_IMPORTED_MODULE_33__["FiguresOfSpeechDetailsComponent"]
     }, // otherwise redirect to home
     {
       path: '**',
@@ -2261,52 +2191,66 @@
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
-    var q__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var q__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! q */
     "./node_modules/q/q.js");
     /* harmony import */
 
 
-    var q__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_3__);
+    var q__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_4__);
     /* harmony import */
 
 
-    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../../services/transfer-letter-service.service */
     "./src/app/services/transfer-letter-service.service.ts");
     /* harmony import */
 
 
-    var _services_progress_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _services_progress_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ../../services/progress.service */
     "./src/app/services/progress.service.ts");
     /* harmony import */
 
 
-    var _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ../../services/alphabet-letters.service */
     "./src/app/services/alphabet-letters.service.ts");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
 
     let AlphabetQuizComponent = class AlphabetQuizComponent {
-      constructor(transferService, letterProgressService, alphabetLettersService, router, location, activatedRoute) {
+      constructor(storage, transferService, letterProgressService, alphabetLettersService, router, location, activatedRoute, http) {
+        this.storage = storage;
         this.transferService = transferService;
         this.letterProgressService = letterProgressService;
         this.alphabetLettersService = alphabetLettersService;
         this.router = router;
         this.location = location;
         this.activatedRoute = activatedRoute;
+        this.http = http;
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         this.letterList = this.alphabetLettersService.dataImport(false);
@@ -2329,7 +2273,10 @@
         this.letterAnimate3 = false;
         this.letterAnimate4 = false; // audio
 
-        this.letterPlayAudio = true;
+        this.letterPlayAudio = true; // Analytics
+
+        this.numberOfAttempts = 0;
+        this.answerStartTime = 0;
       }
 
       ngOnInit() {
@@ -2375,6 +2322,8 @@
       }
 
       correctAnswer(correct) {
+        this.numberOfAttempts++;
+
         if (correct == this.ex1) {
           this.letterAnimate1 = true;
         } else if (correct == this.ex2) {
@@ -2407,11 +2356,11 @@
           this.letterAudio.src = "/assets/audio/letters/".concat(this.letter.audio);
         }
 
-        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(200).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(200).then(() => {
           this.correctSound.play();
           this.loadNew();
         });
-        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(2000).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(2000).then(() => {
           this.playAudio();
         });
 
@@ -2426,9 +2375,13 @@
         } else {
           this.letterProgressService.addCoins("letter" + this.letter.letter, 1);
         }
+
+        this.submitAnalyticEvent(this.letter.letter).subscribe(r => console.log(r));
       }
 
       incorrectAnswer() {
+        this.numberOfAttempts++;
+
         if (!this.hasGuessed) {
           this.hasGuessed = true;
           this.isFirstAttempt = false;
@@ -2451,7 +2404,28 @@
         this.ex2 = randomExamples[1];
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
-        this.isFirstAttempt = true;
+        this.isFirstAttempt = true; // Analytics
+
+        this.numberOfAttempts = 0;
+        this.answerStartTime = Date.now();
+      }
+
+      submitAnalyticEvent(letter) {
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpHeaders"]({
+          'Content-Type': 'application/json',
+          'Authorization': "Bearer ".concat(this.storage.get('token'))
+        });
+        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
+          student: this.storage.get('user_id'),
+          program: '5f087dc650084d0851a04b5b',
+          focus_item_name: "alphabet_".concat(letter),
+          focus_item_unit: this.storage.get('unit'),
+          focus_item_subunit: "alphabet",
+          time_spent: Date.now() - this.answerStartTime,
+          correct_on: this.numberOfAttempts
+        }, {
+          headers
+        });
       }
 
       pickRandom(current) {
@@ -2485,27 +2459,37 @@
     };
 
     AlphabetQuizComponent.ctorParameters = () => [{
-      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__["TransferLetterService"]
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]]
+      }]
     }, {
-      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_5__["ProgressService"]
+      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__["TransferLetterService"]
     }, {
-      type: _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_6__["AlphabetLettersService"]
+      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_6__["ProgressService"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      type: _services_alphabet_letters_service__WEBPACK_IMPORTED_MODULE_7__["AlphabetLettersService"]
     }, {
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_7__["Location"]
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+      type: _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
+    }, {
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"]
     }];
 
-    AlphabetQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    AlphabetQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+      providedIn: 'root'
+    }), Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./alphabet-quiz.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/alphabet-quiz/alphabet-quiz.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./alphabet-quiz.component.css */
       "./src/app/pages/alphabet-quiz/alphabet-quiz.component.css")).default]
-    })], AlphabetQuizComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]))], AlphabetQuizComponent);
     /***/
   },
 
@@ -2705,10 +2689,21 @@
     var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let FirstCategoriesComponent = class FirstCategoriesComponent {
-      constructor(location) {
+      constructor(storage, location) {
+        this.storage = storage;
         this.location = location;
+      }
+
+      ngOnInit() {
+        this.storage.set('unit', 'First-Grade');
       }
 
       playAudio(event) {
@@ -2733,6 +2728,12 @@
     };
 
     FirstCategoriesComponent.ctorParameters = () => [{
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
@@ -2743,7 +2744,7 @@
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./first-categories.component.css */
       "./src/app/pages/first-categories/first-categories.component.css")).default]
-    })], FirstCategoriesComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], FirstCategoriesComponent);
     /***/
   },
 
@@ -3231,7 +3232,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n      background: url('k_beginning_sounds.png') no-repeat scroll transparent;\n      background-position: center top;\n      background-size: 132vh;\n  }\n  \n  /* Pre-K Categories */\n  \n  #lowercase_alphabetical {\n      background: url('k_beginning_sounds_alphabetical.png') no-repeat scroll transparent;\n      background-position: center;\n      background-size: 65vh;\n      cursor: pointer;\n      width: 65vh;\n      height: 15vh;\n      margin-top: 0vh;\n  }\n  \n  #lowercase_bmras {\n    background: url('k_beginning_sounds_bmras.png') no-repeat scroll transparent;\n    background-position: center;\n    background-size: 62vh;\n    cursor: pointer;\n    width: 63vh;\n    height: 16vh;\n  }\n  \n  #uppercase_alphabetical {\n    background: url('k_beginning_sounds_capital_alphabetical.png') no-repeat scroll transparent;\n    background-position: center;\n    background-size: 80vh;\n    cursor: pointer;\n    width: 80vh;\n    height: 17vh;\n  }\n  \n  #uppercase_bmras {\n    background: url('k_beginning_sounds_capital_bmras.png') no-repeat scroll transparent;\n    background-position: center;\n    background-size: 77vh;\n    cursor: pointer;\n    width: 77vh;\n    height: 16vh;\n  }\n  \n  .column {\n    padding-top: 12vh;\n  }\n  \n  .category_button {\n      margin: 5.2vh 0vh 0vh 29vh;\n      border: none;\n      display: inherit;\n  }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvay1jYXRlZ29yaWVzL2stYmVnaW5uaW5nLXNvdW5kcy1kZXRhaWxzL2stYmVnaW5uaW5nLXNvdW5kcy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxvQ0FBb0M7TUFDcEMsc0VBQXlHO01BQ3pHLCtCQUErQjtNQUMvQixzQkFBc0I7RUFDMUI7O0VBRUEscUJBQXFCOztFQUNyQjtNQUNJLG1GQUFrSDtNQUNsSCwyQkFBMkI7TUFDM0IscUJBQXFCO01BQ3JCLGVBQWU7TUFDZixXQUFXO01BQ1gsWUFBWTtNQUNaLGVBQWU7RUFDbkI7O0VBQ0E7SUFDRSw0RUFBMkc7SUFDM0csMkJBQTJCO0lBQzNCLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsV0FBVztJQUNYLFlBQVk7RUFDZDs7RUFDQTtJQUNFLDJGQUEwSDtJQUMxSCwyQkFBMkI7SUFDM0IscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0lBQ1gsWUFBWTtFQUNkOztFQUNBO0lBQ0Usb0ZBQW1IO0lBQ25ILDJCQUEyQjtJQUMzQixxQkFBcUI7SUFDckIsZUFBZTtJQUNmLFdBQVc7SUFDWCxZQUFZO0VBQ2Q7O0VBRUE7SUFDRSxpQkFBaUI7RUFDbkI7O0VBRUE7TUFDSSwwQkFBMEI7TUFDMUIsWUFBWTtNQUNaLGdCQUFnQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2stY2F0ZWdvcmllcy9rLWJlZ2lubmluZy1zb3VuZHMtZGV0YWlscy9rLWJlZ2lubmluZy1zb3VuZHMtZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICAgICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2JhY2tncm91bmRzL2tfYmVnaW5uaW5nX3NvdW5kcy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyIHRvcDtcbiAgICAgIGJhY2tncm91bmQtc2l6ZTogMTMydmg7XG4gIH1cbiAgXG4gIC8qIFByZS1LIENhdGVnb3JpZXMgKi9cbiAgI2xvd2VyY2FzZV9hbHBoYWJldGljYWwge1xuICAgICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMva19iZWdpbm5pbmdfc291bmRzX2FscGhhYmV0aWNhbC5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgICAgYmFja2dyb3VuZC1zaXplOiA2NXZoO1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgd2lkdGg6IDY1dmg7XG4gICAgICBoZWlnaHQ6IDE1dmg7XG4gICAgICBtYXJnaW4tdG9wOiAwdmg7XG4gIH1cbiAgI2xvd2VyY2FzZV9ibXJhcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMva19iZWdpbm5pbmdfc291bmRzX2JtcmFzLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogNjJ2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDYzdmg7XG4gICAgaGVpZ2h0OiAxNnZoO1xuICB9XG4gICN1cHBlcmNhc2VfYWxwaGFiZXRpY2FsIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9rX2JlZ2lubmluZ19zb3VuZHNfY2FwaXRhbF9hbHBoYWJldGljYWwucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiA4MHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogODB2aDtcbiAgICBoZWlnaHQ6IDE3dmg7XG4gIH1cbiAgI3VwcGVyY2FzZV9ibXJhcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMva19iZWdpbm5pbmdfc291bmRzX2NhcGl0YWxfYm1yYXMucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiA3N3ZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNzd2aDtcbiAgICBoZWlnaHQ6IDE2dmg7XG4gIH1cblxuICAuY29sdW1uIHtcbiAgICBwYWRkaW5nLXRvcDogMTJ2aDtcbiAgfVxuXG4gIC5jYXRlZ29yeV9idXR0b24ge1xuICAgICAgbWFyZ2luOiA1LjJ2aCAwdmggMHZoIDI5dmg7XG4gICAgICBib3JkZXI6IG5vbmU7XG4gICAgICBkaXNwbGF5OiBpbmhlcml0O1xuICB9XG4iXX0= */";
+    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 23vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n      background: url('k_beginning_sounds.png') no-repeat scroll transparent;\n      background-position: 23vh top;\n      background-size: 132vh;\n  }\n  \n  /* Pre-K Categories */\n  \n  #lowercase_alphabetical {\n      cursor: pointer;\n      height: 15vh;\n      width: 101vh;\n      margin-top: 0vh;\n  }\n  \n  #lowercase_bmras {\n    cursor: pointer;\n    height: 16vh;\n    width: 101vh;\n  }\n  \n  #uppercase_alphabetical {\n    cursor: pointer;\n    height: 17vh;\n  }\n  \n  #uppercase_bmras {\n    cursor: pointer;\n    height: 16vh;\n    margin: 2.2vh 0vh 0vh 7vh;\n  }\n  \n  .column {\n    padding-top: 15vh;\n  }\n  \n  .category_button {\n      margin: 5.2vh 0vh 0vh 7vh;\n      border: none;\n      display: inherit;\n      width: 115vh;\n      background-color: transparent;\n  }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvay1jYXRlZ29yaWVzL2stYmVnaW5uaW5nLXNvdW5kcy1kZXRhaWxzL2stYmVnaW5uaW5nLXNvdW5kcy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxvQ0FBb0M7TUFDcEMsc0VBQXlHO01BQ3pHLDZCQUE2QjtNQUM3QixzQkFBc0I7RUFDMUI7O0VBRUEscUJBQXFCOztFQUNyQjtNQUNJLGVBQWU7TUFDZixZQUFZO01BQ1osWUFBWTtNQUNaLGVBQWU7RUFDbkI7O0VBQ0E7SUFDRSxlQUFlO0lBQ2YsWUFBWTtJQUNaLFlBQVk7RUFDZDs7RUFDQTtJQUNFLGVBQWU7SUFDZixZQUFZO0VBQ2Q7O0VBQ0E7SUFDRSxlQUFlO0lBQ2YsWUFBWTtJQUNaLHlCQUF5QjtFQUMzQjs7RUFFQTtJQUNFLGlCQUFpQjtFQUNuQjs7RUFFQTtNQUNJLHlCQUF5QjtNQUN6QixZQUFZO01BQ1osZ0JBQWdCO01BQ2hCLFlBQVk7TUFDWiw2QkFBNkI7RUFDakMiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9rLWNhdGVnb3JpZXMvay1iZWdpbm5pbmctc291bmRzLWRldGFpbHMvay1iZWdpbm5pbmctc291bmRzLWRldGFpbHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWJvZHkge1xuICAgIHdpZHRoOiAxNjkuN3ZoO1xuICAgIGhlaWdodDogMHZoO1xuICAgIHBhZGRpbmctbGVmdDogMjN2aDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgXG4gICNiYWNrZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9iYWNrZ3JvdW5kcy9rX2JlZ2lubmluZ19zb3VuZHMucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IDIzdmggdG9wO1xuICAgICAgYmFja2dyb3VuZC1zaXplOiAxMzJ2aDtcbiAgfVxuICBcbiAgLyogUHJlLUsgQ2F0ZWdvcmllcyAqL1xuICAjbG93ZXJjYXNlX2FscGhhYmV0aWNhbCB7XG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICBoZWlnaHQ6IDE1dmg7XG4gICAgICB3aWR0aDogMTAxdmg7XG4gICAgICBtYXJnaW4tdG9wOiAwdmg7XG4gIH1cbiAgI2xvd2VyY2FzZV9ibXJhcyB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGhlaWdodDogMTZ2aDtcbiAgICB3aWR0aDogMTAxdmg7XG4gIH1cbiAgI3VwcGVyY2FzZV9hbHBoYWJldGljYWwge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBoZWlnaHQ6IDE3dmg7XG4gIH1cbiAgI3VwcGVyY2FzZV9ibXJhcyB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGhlaWdodDogMTZ2aDtcbiAgICBtYXJnaW46IDIuMnZoIDB2aCAwdmggN3ZoO1xuICB9XG5cbiAgLmNvbHVtbiB7XG4gICAgcGFkZGluZy10b3A6IDE1dmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9uIHtcbiAgICAgIG1hcmdpbjogNS4ydmggMHZoIDB2aCA3dmg7XG4gICAgICBib3JkZXI6IG5vbmU7XG4gICAgICBkaXNwbGF5OiBpbmhlcml0O1xuICAgICAgd2lkdGg6IDExNXZoO1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIH1cbiJdfQ== */";
     /***/
   },
 
@@ -3364,10 +3365,21 @@
     var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let KCategoriesComponent = class KCategoriesComponent {
-      constructor(location) {
+      constructor(storage, location) {
+        this.storage = storage;
         this.location = location;
+      }
+
+      ngOnInit() {
+        this.storage.set('unit', 'Kindergarten');
       }
 
       playAudio(event) {
@@ -3392,6 +3404,12 @@
     };
 
     KCategoriesComponent.ctorParameters = () => [{
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
@@ -3402,7 +3420,7 @@
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./k-categories.component.css */
       "./src/app/pages/k-categories/k-categories.component.css")).default]
-    })], KCategoriesComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], KCategoriesComponent);
     /***/
   },
 
@@ -4234,6 +4252,7 @@
         if (this.selectedImg.length === 5) {
           var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
           this.userService.login(passcode).subscribe(res => {
+            this.userService.setResponse(res);
             this.router.navigate(['home']);
           }, err => {
             alert(err['error']['message']);
@@ -4992,76 +5011,89 @@
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
-    var q__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var q__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! q */
     "./node_modules/q/q.js");
     /* harmony import */
 
 
-    var q__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_3__);
+    var q__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_4__);
     /* harmony import */
 
 
-    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../../services/transfer-letter-service.service */
     "./src/app/services/transfer-letter-service.service.ts");
     /* harmony import */
 
 
-    var _services_progress_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _services_progress_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ../../services/progress.service */
     "./src/app/services/progress.service.ts");
     /* harmony import */
 
 
-    var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ../../../assets/json/phonemes.json */
     "./src/assets/json/phonemes.json");
 
-    var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(
+    var _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(
     /*! ../../../assets/json/phonemes.json */
     "./src/assets/json/phonemes.json", 1);
     /* harmony import */
 
 
-    var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ../../../assets/json/bad-assets.json */
     "./src/assets/json/bad-assets.json");
 
-    var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(
+    var _assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(
     /*! ../../../assets/json/bad-assets.json */
     "./src/assets/json/bad-assets.json", 1);
     /* harmony import */
 
 
-    var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ../../../assets/json/incorrect-schwas.json */
     "./src/assets/json/incorrect-schwas.json");
 
-    var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(
+    var _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(
     /*! ../../../assets/json/incorrect-schwas.json */
     "./src/assets/json/incorrect-schwas.json", 1);
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
     /* harmony import */
 
 
-    var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ../../services/phonemes.service */
     "./src/app/services/phonemes.service.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
 
     let PhonemeQuizComponent = class PhonemeQuizComponent {
-      constructor(transferService, phonemeProgressService, router, location, activatedRoute, phonemesService, changeDetectorRef) {
+      constructor(storage, transferService, phonemeProgressService, router, location, activatedRoute, phonemesService, changeDetectorRef, http) {
+        this.storage = storage;
         this.transferService = transferService;
         this.phonemeProgressService = phonemeProgressService;
         this.router = router;
@@ -5069,6 +5101,7 @@
         this.activatedRoute = activatedRoute;
         this.phonemesService = phonemesService;
         this.changeDetectorRef = changeDetectorRef;
+        this.http = http;
         this.begin = false;
         this.quizNumber = 0;
         this.puzzlePieceImages = [];
@@ -5133,7 +5166,11 @@
 
         this.puzzlePieceImages.sort(function () {
           return rng() - 0.5;
-        });
+        }); // Analytics
+
+        this.correctAnswerValue = '';
+        this.numberOfAttempts = 0;
+        this.answerStartTime = 0;
       }
 
       goBack() {
@@ -5153,7 +5190,7 @@
         this.longVowelList = []; //Only generate the list if the phoneme selected is a vowel sound
 
         if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
-          _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__.forEach(element => {
+          _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.forEach(element => {
             if (element["category"].includes("V-long") && !element["id"].includes(this.phoneme.id.charAt(0))) {
               this.longVowelList = [].concat(this.longVowelList, element["quiz-words"]);
             }
@@ -5162,7 +5199,7 @@
 
 
         if (this.phoneme.category.includes("V-schwa")) {
-          this.schwasList = _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_8__;
+          this.schwasList = _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9__;
         }
 
         this.correctAudio = new Audio();
@@ -5178,6 +5215,7 @@
         var examples = this.generateExamples();
         var temp = examples[this.correctAnswer];
         examples[this.correctAnswer] = examples[0];
+        this.correctAnswerValue = examples[this.correctAnswer];
         examples[0] = temp;
         this.img1 = '/assets/img/sight-words/' + examples[0].replace(/\s/g, '') + '.png';
         this.img2 = '/assets/img/sight-words/' + examples[1].replace(/\s/g, '') + '.png';
@@ -5193,7 +5231,7 @@
         this.phonemeAudio.onended = () => {
           this.phonemeAnimate = false;
           this.ex1Animate = true;
-          Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
+          Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
             this.ex1Audio.play();
           });
         };
@@ -5201,7 +5239,7 @@
         this.ex1Audio.onended = () => {
           this.ex1Animate = false;
           this.ex2Animate = true;
-          Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
+          Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
             this.ex2Audio.play();
           });
         };
@@ -5209,7 +5247,7 @@
         this.ex2Audio.onended = () => {
           this.ex2Animate = false;
           this.ex3Animate = true;
-          Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
+          Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
             this.ex3Audio.play();
           });
         };
@@ -5219,7 +5257,10 @@
         };
 
         this.isFirstAttempt = true;
-        this.hasGuessed = false;
+        this.hasGuessed = false; // Analytics
+
+        this.numberOfAttempts = 0;
+        this.answerStartTime = Date.now();
       }
 
       ngAfterViewInit() {
@@ -5279,7 +5320,7 @@
           this.phonemeAudio.onended = () => {
             this.phonemeAnimate = false;
             this.ex1Animate = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(250).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(250).then(() => {
               this.ex1Audio.play();
             });
           };
@@ -5289,6 +5330,7 @@
       }
 
       onCorrect() {
+        this.numberOfAttempts++;
         this.quizNumber++;
         var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
 
@@ -5317,7 +5359,7 @@
           this.ex3CorrectAnimate = true;
         }
 
-        Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(200).then(() => {
+        Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(200).then(() => {
           this.correctAudio.play();
         });
 
@@ -5327,12 +5369,14 @@
           this.ex3CorrectAnimate = false;
         };
 
+        this.submitAnalyticEvent(this.phoneme.id).subscribe(r => console.log(r));
+
         if (this.phoneme.puzzlePiecesEarned == 12) {
           // Add checkmark
           this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true); // Update puzzle view
 
           this.puzzleAnimate = true;
-          Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
+          Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
             this.puzzleAnimate = false;
             this.changeDetectorRef.detectChanges();
           });
@@ -5347,25 +5391,28 @@
             });
           } else {
             this.puzzleComplete = true;
-            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(1000).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(1000).then(() => {
               this.loadNew();
             });
           }
         } else {
           // Update puzzle view
           this.puzzleAnimate = true;
-          Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
+          Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
             this.puzzleAnimate = false;
             this.changeDetectorRef.detectChanges();
           });
-          this.isFirstAttempt = true; // Update examples
+          this.isFirstAttempt = true; // Analytics
+
+          this.numberOfAttempts = 0;
+          this.answerStartTime = Date.now(); // Update examples
 
           if (this.quizAll) {
-            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(900).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
               window.location.reload();
             });
           } else {
-            Object(q__WEBPACK_IMPORTED_MODULE_3__["delay"])(1500).then(() => {
+            Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(1500).then(() => {
               this.loadNew();
             });
           }
@@ -5517,7 +5564,7 @@
           return false;
         }
 
-        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__.includes(example);
+        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__.includes(example);
       }
 
       isValidSecondNegativeExample(example, positiveExamples, firstNegative) {
@@ -5630,7 +5677,7 @@
           return false;
         }
 
-        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_7__.includes(example);
+        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !_assets_json_bad_assets_json__WEBPACK_IMPORTED_MODULE_8__.includes(example);
       }
 
       generateNegativeExample(positiveExamples) {
@@ -5654,7 +5701,7 @@
       }
 
       randomQuizWord() {
-        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_6__.length)]["quiz-words"]; //Use only the long vowel list if the quiz phoneme is a vowel sound
+        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.length)]["quiz-words"]; //Use only the long vowel list if the quiz phoneme is a vowel sound
 
 
         if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
@@ -5697,6 +5744,8 @@
       }
 
       incorrectAnswer() {
+        this.numberOfAttempts++;
+
         if (!this.hasGuessed) {
           this.hasGuessed = true;
           this.isFirstAttempt = false;
@@ -5711,32 +5760,60 @@
         this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
       }
 
+      submitAnalyticEvent(phonemeId) {
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpHeaders"]({
+          'Content-Type': 'application/json',
+          'Authorization': "Bearer ".concat(this.storage.get('token'))
+        });
+        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
+          student: this.storage.get('user_id'),
+          program: '5f087dc650084d0851a04b5b',
+          focus_item_name: "phoneme_".concat(phonemeId),
+          focus_item_unit: this.storage.get('unit'),
+          focus_item_subunit: "phoneme",
+          time_spent: Date.now() - this.answerStartTime,
+          correct_on: this.numberOfAttempts
+        }, {
+          headers
+        });
+      }
+
     };
 
     PhonemeQuizComponent.ctorParameters = () => [{
-      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_4__["TransferLetterService"]
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]]
+      }]
     }, {
-      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_5__["ProgressService"]
+      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_5__["TransferLetterService"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_6__["ProgressService"]
     }, {
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_9__["Location"]
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+      type: _angular_common__WEBPACK_IMPORTED_MODULE_10__["Location"]
     }, {
-      type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__["PhonemesService"]
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
+    }, {
+      type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__["PhonemesService"]
     }, {
       type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]
+    }, {
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"]
     }];
 
-    PhonemeQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+    PhonemeQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+      providedIn: 'root'
+    }), Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./phoneme-quiz.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/phoneme-quiz/phoneme-quiz.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./phoneme-quiz.component.css */
       "./src/app/pages/phoneme-quiz/phoneme-quiz.component.css")).default]
-    })], PhonemeQuizComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]))], PhonemeQuizComponent);
     /***/
   },
 
@@ -5832,10 +5909,21 @@
     var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let PrekCategoriesComponent = class PrekCategoriesComponent {
-      constructor(location) {
+      constructor(storage, location) {
+        this.storage = storage;
         this.location = location;
+      }
+
+      ngOnInit() {
+        this.storage.set('unit', 'PRE-K');
       }
 
       playAudio(event) {// this.category = new Audio();
@@ -5853,6 +5941,12 @@
     };
 
     PrekCategoriesComponent.ctorParameters = () => [{
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
@@ -5863,7 +5957,7 @@
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./prek-categories.component.css */
       "./src/app/pages/prek-categories/prek-categories.component.css")).default]
-    })], PrekCategoriesComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], PrekCategoriesComponent);
     /***/
   },
 
@@ -6271,10 +6365,21 @@
     var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let SecondCategoriesComponent = class SecondCategoriesComponent {
-      constructor(location) {
+      constructor(storage, location) {
+        this.storage = storage;
         this.location = location;
+      }
+
+      ngOnInit() {
+        this.storage.set('unit', 'Second-Grade');
       }
 
       playAudio(event) {
@@ -6294,6 +6399,12 @@
     };
 
     SecondCategoriesComponent.ctorParameters = () => [{
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
@@ -6304,7 +6415,7 @@
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./second-categories.component.css */
       "./src/app/pages/second-categories/second-categories.component.css")).default]
-    })], SecondCategoriesComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], SecondCategoriesComponent);
     /***/
   },
 
@@ -6359,7 +6470,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 40vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('second_consonants_details.png') no-repeat scroll transparent;\n    background-position: 19vh 2vh;\n    background-size: 169vh;\n}\n\n/* Phonics Categories */\n\n#beginning-sounds {\n    background: url('second_sound_begin.png') no-repeat scroll transparent;\n    background-size: 65vh;\n    margin: 17.5vh 0vh 0vh -6vh;\n    height: 13.5vh;\n    cursor: pointer;\n    width: 63vh;\n}\n\n#ending-sounds {\n    background: url('second_sound_end.png') no-repeat scroll transparent;\n    background-size: 55vh;\n    margin: 17.5vh 0vh 0vh 33vh;\n    cursor: pointer;\n    height: 13.5vh;\n    width: 54vh;\n}\n\n#cg {\n    background: url('second_cg.png') no-repeat scroll transparent;\n    background-size: 80vh;\n    cursor: pointer;\n    width: 78vh;\n}\n\n#beginning-blends {\n    background: url('second_blend_begin.png') no-repeat scroll transparent;\n    background-size: 61vh;\n    cursor: pointer;\n    width: 59vh;\n}\n\n#ending-blends {\n    background: url('second_blend_end.png') no-repeat scroll transparent;\n    background-size: 50vh;\n    margin-left: 37vh;\n    cursor: pointer;\n    width: 49vh;\n}\n\n#three-letter-blends {\n    background: url('second_blend_3.png') no-repeat scroll transparent;\n    background-size: 60vh;\n    cursor: pointer;\n    width: 58vh;\n}\n\n#silent-consonants {\n  background: url('second_silent.png') no-repeat scroll transparent;\n  background-size: 29vh;\n  margin-left: 38vh;\n  cursor: pointer;\n  width: 28vh;\n}\n\n#beginning-digraphs {\n  background: url('second_digraph_begin.png') no-repeat scroll transparent;\n  background-size: 91.5vh;\n  cursor: pointer;\n  width: 79vh;\n}\n\n#ending-digraphs {\n  background: url('second_digraph_end.png') no-repeat scroll transparent;\n  background-size: 73vh;\n  display: block;\n  cursor: pointer;\n  width: 71vh;\n}\n\n.category_button {\n    height: 10vh;\n    margin: 1.5vh 0vh 0vh -5vh;\n    border: none;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLWNvbnNvbmFudHMtZGV0YWlscy9zZWNvbmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixrQkFBa0I7QUFDcEI7O0FBRUE7SUFDSSxvQ0FBb0M7SUFDcEMsNkVBQWdIO0lBQ2hILDZCQUE2QjtJQUM3QixzQkFBc0I7QUFDMUI7O0FBRUEsdUJBQXVCOztBQUN2QjtJQUNJLHNFQUFxRztJQUNyRyxxQkFBcUI7SUFDckIsMkJBQTJCO0lBQzNCLGNBQWM7SUFDZCxlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksb0VBQW1HO0lBQ25HLHFCQUFxQjtJQUNyQiwyQkFBMkI7SUFDM0IsZUFBZTtJQUNmLGNBQWM7SUFDZCxXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSw2REFBNEY7SUFDNUYscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxzRUFBcUc7SUFDckcscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxvRUFBbUc7SUFDbkcscUJBQXFCO0lBQ3JCLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksa0VBQWlHO0lBQ2pHLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0VBQ0UsaUVBQWdHO0VBQ2hHLHFCQUFxQjtFQUNyQixpQkFBaUI7RUFDakIsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLHdFQUF1RztFQUN2Ryx1QkFBdUI7RUFDdkIsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLHNFQUFxRztFQUNyRyxxQkFBcUI7RUFDckIsY0FBYztFQUNkLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBRUE7SUFDSSxZQUFZO0lBQ1osMEJBQTBCO0lBQzFCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBQ0EsbUNBQW1DOztBQUNuQztFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLWNvbnNvbmFudHMtZGV0YWlscy9zZWNvbmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDQwdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvc2Vjb25kX2NvbnNvbmFudHNfZGV0YWlscy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IDE5dmggMnZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTY5dmg7XG59XG5cbi8qIFBob25pY3MgQ2F0ZWdvcmllcyAqL1xuI2JlZ2lubmluZy1zb3VuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF9zb3VuZF9iZWdpbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogNjV2aDtcbiAgICBtYXJnaW46IDE3LjV2aCAwdmggMHZoIC02dmg7XG4gICAgaGVpZ2h0OiAxMy41dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiA2M3ZoO1xufVxuI2VuZGluZy1zb3VuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF9zb3VuZF9lbmQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDU1dmg7XG4gICAgbWFyZ2luOiAxNy41dmggMHZoIDB2aCAzM3ZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBoZWlnaHQ6IDEzLjV2aDtcbiAgICB3aWR0aDogNTR2aDtcbn1cbiNjZyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvc2Vjb25kX2NnLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA4MHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNzh2aDtcbn1cbiNiZWdpbm5pbmctYmxlbmRzIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9zZWNvbmRfYmxlbmRfYmVnaW4ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDYxdmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiA1OXZoO1xufVxuI2VuZGluZy1ibGVuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF9ibGVuZF9lbmQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDUwdmg7XG4gICAgbWFyZ2luLWxlZnQ6IDM3dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiA0OXZoO1xufVxuI3RocmVlLWxldHRlci1ibGVuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF9ibGVuZF8zLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA2MHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNTh2aDtcbn1cbiNzaWxlbnQtY29uc29uYW50cyB7XG4gIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF9zaWxlbnQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgYmFja2dyb3VuZC1zaXplOiAyOXZoO1xuICBtYXJnaW4tbGVmdDogMzh2aDtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogMjh2aDtcbn1cbiNiZWdpbm5pbmctZGlncmFwaHMge1xuICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9zZWNvbmRfZGlncmFwaF9iZWdpbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICBiYWNrZ3JvdW5kLXNpemU6IDkxLjV2aDtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogNzl2aDtcbn1cbiNlbmRpbmctZGlncmFwaHMge1xuICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9zZWNvbmRfZGlncmFwaF9lbmQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgYmFja2dyb3VuZC1zaXplOiA3M3ZoO1xuICBkaXNwbGF5OiBibG9jaztcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogNzF2aDtcbn1cblxuLmNhdGVnb3J5X2J1dHRvbiB7XG4gICAgaGVpZ2h0OiAxMHZoO1xuICAgIG1hcmdpbjogMS41dmggMHZoIDB2aCAtNXZoO1xuICAgIGJvcmRlcjogbm9uZTtcbn1cblxuLmNvbHVtbiB7XG4gICAgcGFkZGluZy10b3A6IDIuNXZoO1xufVxuLyogQ2xlYXIgZmxvYXRzIGFmdGVyIHRoZSBjb2x1bW5zICovXG4uY29sdW1uOmFmdGVyIHtcbiAgY29udGVudDogXCJcIjtcbiAgZGlzcGxheTogdGFibGU7XG4gIGNsZWFyOiBib3RoO1xufVxuIl19 */";
+    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 23vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('second_consonants_details.png') no-repeat scroll transparent;\n    background-position: 19vh 2vh;\n    background-size: auto 100vh;\n}\n\n/* Phonics Categories */\n\n#beginning-sounds {\n  margin: 11.5vh 1vh 0vh 15vh;\n  height: 10.5vh;\n  cursor: pointer;\n  width: 71vh;\n}\n\n#ending-sounds {\n  margin: 0.5vh 0vh 0vh 26vh;\n  cursor: pointer;\n  height: 9.5vh;\n  width: 62vh;\n\n}\n\n#cg {\n  cursor: pointer;\n  width: 96vh;\n  margin: 0.5vh 0vh 0vh 26vh;\n  width: 78vh;\n}\n\n#beginning-blends {\n  margin: 0.5vh 0vh 0vh 26vh;\n  height: 9vh;\n    cursor: pointer;\n    width: 95vh;\n}\n\n#ending-blends {\n  margin: 0.5vh 0vh 0vh 12vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 71vh;\n}\n\n#three-letter-blends {\n  margin: 0.5vh 0vh 0vh 9vh;\n  height: 7vh;\n  cursor: pointer;\n  width: 75vh;\n}\n\n#silent-consonants {\n  margin: 0.5vh 0vh 0vh 28vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 37vh;\n}\n\n#beginning-digraphs {\n  margin: 0.5vh 0vh 0vh 11vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 91vh;\n}\n\n#ending-digraphs {\n  margin: 0.5vh 0vh 0vh 26vh;\n  height: 9vh;\n  display: block;\n  cursor: pointer;\n  width: 92vh;\n}\n\n.category_button {\n    height: 10vh;\n    margin: 1.5vh 0vh 0vh 10vh;\n    border: none;\n    background-color: transparent;\n    display: block;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLWNvbnNvbmFudHMtZGV0YWlscy9zZWNvbmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixrQkFBa0I7QUFDcEI7O0FBRUE7SUFDSSxvQ0FBb0M7SUFDcEMsNkVBQWdIO0lBQ2hILDZCQUE2QjtJQUM3QiwyQkFBMkI7QUFDL0I7O0FBRUEsdUJBQXVCOztBQUN2QjtFQUNFLDJCQUEyQjtFQUMzQixjQUFjO0VBQ2QsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLDBCQUEwQjtFQUMxQixlQUFlO0VBQ2YsYUFBYTtFQUNiLFdBQVc7O0FBRWI7O0FBQ0E7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLDBCQUEwQjtFQUMxQixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztJQUNULGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSx5QkFBeUI7RUFDekIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGNBQWM7RUFDZCxlQUFlO0VBQ2YsV0FBVztBQUNiOztBQUVBO0lBQ0ksWUFBWTtJQUNaLDBCQUEwQjtJQUMxQixZQUFZO0lBQ1osNkJBQTZCO0lBQzdCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBQ0EsbUNBQW1DOztBQUNuQztFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLWNvbnNvbmFudHMtZGV0YWlscy9zZWNvbmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDIzdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvc2Vjb25kX2NvbnNvbmFudHNfZGV0YWlscy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IDE5dmggMnZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogYXV0byAxMDB2aDtcbn1cblxuLyogUGhvbmljcyBDYXRlZ29yaWVzICovXG4jYmVnaW5uaW5nLXNvdW5kcyB7XG4gIG1hcmdpbjogMTEuNXZoIDF2aCAwdmggMTV2aDtcbiAgaGVpZ2h0OiAxMC41dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDcxdmg7XG59XG4jZW5kaW5nLXNvdW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGhlaWdodDogOS41dmg7XG4gIHdpZHRoOiA2MnZoO1xuXG59XG4jY2cge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHdpZHRoOiA5NnZoO1xuICBtYXJnaW46IDAuNXZoIDB2aCAwdmggMjZ2aDtcbiAgd2lkdGg6IDc4dmg7XG59XG4jYmVnaW5uaW5nLWJsZW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDk1dmg7XG59XG4jZW5kaW5nLWJsZW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAxMnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogNzF2aDtcbn1cbiN0aHJlZS1sZXR0ZXItYmxlbmRzIHtcbiAgbWFyZ2luOiAwLjV2aCAwdmggMHZoIDl2aDtcbiAgaGVpZ2h0OiA3dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDc1dmg7XG59XG4jc2lsZW50LWNvbnNvbmFudHMge1xuICBtYXJnaW46IDAuNXZoIDB2aCAwdmggMjh2aDtcbiAgaGVpZ2h0OiA5dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDM3dmg7XG59XG4jYmVnaW5uaW5nLWRpZ3JhcGhzIHtcbiAgbWFyZ2luOiAwLjV2aCAwdmggMHZoIDExdmg7XG4gIGhlaWdodDogOXZoO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHdpZHRoOiA5MXZoO1xufVxuI2VuZGluZy1kaWdyYXBocyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDkydmg7XG59XG5cbi5jYXRlZ29yeV9idXR0b24ge1xuICAgIGhlaWdodDogMTB2aDtcbiAgICBtYXJnaW46IDEuNXZoIDB2aCAwdmggMTB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbi5jb2x1bW4ge1xuICAgIHBhZGRpbmctdG9wOiAyLjV2aDtcbn1cbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xuLmNvbHVtbjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IHRhYmxlO1xuICBjbGVhcjogYm90aDtcbn0iXX0= */";
     /***/
   },
 
@@ -6486,7 +6597,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 40vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('third_vowels_details.png') no-repeat scroll transparent;\n    background-position: 14vh 2vh;\n    background-size: 173vh;\n}\n\n/* Phonics Categories */\n\n#short_vowels {\n    background: url('second_vowels_short.png') no-repeat scroll transparent;\n    background-size: 34vh;\n    margin-top: 17vh;\n    cursor: pointer;\n    width: 32vh;\n}\n\n#long_vowels {\n    background: url('second_vowels_long.png') no-repeat scroll transparent;\n    background-size: 30vh;\n    margin: 17vh 0vh 0vh 7vh;\n    cursor: pointer;\n    width: 28vh;\n}\n\n#schwas {\n    background: url('second_vowels_schwa.png') no-repeat scroll transparent;\n    background-size: 41vh;\n    margin-left: 3vh;\n    cursor: pointer;\n    width: 39vh;\n}\n\n#vowel_pairs {\n    background: url('second_vowels_pairs.png') no-repeat scroll transparent;\n    background-size: 33vh;\n    cursor: pointer;\n    width: 31vh;\n}\n\n#y_sounds {\n    background: url('second_vowels_y.png') no-repeat scroll transparent;\n    background-size: 55.5vh;\n    margin-left: 8vh;\n    cursor: pointer;\n    width: 54vh;\n}\n\n#r {\n    background: url('second_vowels_r.png') no-repeat scroll transparent;\n    background-size: 38vh;\n    cursor: pointer;\n    width: 36vh;\n}\n\n.category_button {\n    width: 39vh;\n    height: 15.7vh;\n    margin: 4vh 0vh 0vh 23vh;\n    border: none;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLXZvd2Vscy1kZXRhaWxzL3NlY29uZC12b3dlbHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLHdFQUEyRztJQUMzRyw2QkFBNkI7SUFDN0Isc0JBQXNCO0FBQzFCOztBQUVBLHVCQUF1Qjs7QUFDdkI7SUFDSSx1RUFBc0c7SUFDdEcscUJBQXFCO0lBQ3JCLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksc0VBQXFHO0lBQ3JHLHFCQUFxQjtJQUNyQix3QkFBd0I7SUFDeEIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFDQTtJQUNJLHVFQUFzRztJQUN0RyxxQkFBcUI7SUFDckIsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSx1RUFBc0c7SUFDdEcscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxtRUFBa0c7SUFDbEcsdUJBQXVCO0lBQ3ZCLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksbUVBQWtHO0lBQ2xHLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUVBO0lBQ0ksV0FBVztJQUNYLGNBQWM7SUFDZCx3QkFBd0I7SUFDeEIsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFDQSxtQ0FBbUM7O0FBQ25DO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxXQUFXO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9zZWNvbmQtY2F0ZWdvcmllcy9zZWNvbmQtdm93ZWxzLWRldGFpbHMvc2Vjb25kLXZvd2Vscy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDQwdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvdGhpcmRfdm93ZWxzX2RldGFpbHMucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAxNHZoIDJ2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDE3M3ZoO1xufVxuXG4vKiBQaG9uaWNzIENhdGVnb3JpZXMgKi9cbiNzaG9ydF92b3dlbHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF92b3dlbHNfc2hvcnQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM0dmg7XG4gICAgbWFyZ2luLXRvcDogMTd2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDMydmg7XG59XG4jbG9uZ192b3dlbHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF92b3dlbHNfbG9uZy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzB2aDtcbiAgICBtYXJnaW46IDE3dmggMHZoIDB2aCA3dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiAyOHZoO1xufVxuI3NjaHdhcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvc2Vjb25kX3Zvd2Vsc19zY2h3YS5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogNDF2aDtcbiAgICBtYXJnaW4tbGVmdDogM3ZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogMzl2aDtcbn1cbiN2b3dlbF9wYWlycyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvc2Vjb25kX3Zvd2Vsc19wYWlycy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzN2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDMxdmg7XG59XG4jeV9zb3VuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF92b3dlbHNfeS5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogNTUuNXZoO1xuICAgIG1hcmdpbi1sZWZ0OiA4dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiA1NHZoO1xufVxuI3Ige1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3NlY29uZF92b3dlbHNfci5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDM2dmg7XG59XG5cbi5jYXRlZ29yeV9idXR0b24ge1xuICAgIHdpZHRoOiAzOXZoO1xuICAgIGhlaWdodDogMTUuN3ZoO1xuICAgIG1hcmdpbjogNHZoIDB2aCAwdmggMjN2aDtcbiAgICBib3JkZXI6IG5vbmU7XG59XG5cbi5jb2x1bW4ge1xuICAgIHBhZGRpbmctdG9wOiAyLjV2aDtcbn1cbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xuLmNvbHVtbjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IHRhYmxlO1xuICBjbGVhcjogYm90aDtcbn1cbiJdfQ== */";
+    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 23vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('second_vowels_details.png') no-repeat scroll transparent;\n    background-position: 14vh 2vh;\n    background-size: auto 100vh;\n}\n\n/* Phonics Categories */\n\n#short_vowels {\n    margin-top: 17vh;\n    cursor: pointer;\n    width: 52vh;\n    margin: 9vh 0vh 0vh 23vh;\n}\n\n#long_vowels {\n    margin: 3vh 0vh 0vh 41vh;\n    cursor: pointer;\n    width: 83vh;\n}\n\n#vowel_pairs {\n    margin: 2vh 0vh 0vh 1vh;\n    cursor: pointer;\n    width: 76vh;\n}\n\n#y_sounds {\n    margin: 3vh 0vh 0vh 44vh;\n    cursor: pointer;\n    width: 87vh;\n}\n\n#r {\n    width: 89vh;\n    margin: 2vh 0vh 0vh -5vh;\n    cursor: pointer;\n}\n\n#schwas {\n    margin: 2vh 0vh 0vh 43vh;\n    cursor: pointer;\n    width: 71vh;\n}\n\n.category_button {\n    width: 39vh;\n    height: 12.7vh;\n    margin: 4vh 0vh 0vh 23vh;\n    border: none;\n    display: block;\n    background-color: transparent;\n    border: solid 2px red;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2Vjb25kLWNhdGVnb3JpZXMvc2Vjb25kLXZvd2Vscy1kZXRhaWxzL3NlY29uZC12b3dlbHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLHlFQUE0RztJQUM1Ryw2QkFBNkI7SUFDN0IsMkJBQTJCO0FBQy9COztBQUVBLHVCQUF1Qjs7QUFDdkI7SUFDSSxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLFdBQVc7SUFDWCx3QkFBd0I7QUFDNUI7O0FBQ0E7SUFDSSx3QkFBd0I7SUFDeEIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFFQTtJQUNJLHVCQUF1QjtJQUN2QixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksd0JBQXdCO0lBQ3hCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxXQUFXO0lBQ1gsd0JBQXdCO0lBQ3hCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxjQUFjO0lBQ2Qsd0JBQXdCO0lBQ3hCLFlBQVk7SUFDWixjQUFjO0lBQ2QsNkJBQTZCO0lBQzdCLHFCQUFxQjtBQUN6Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFDQSxtQ0FBbUM7O0FBQ25DO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxXQUFXO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9zZWNvbmQtY2F0ZWdvcmllcy9zZWNvbmQtdm93ZWxzLWRldGFpbHMvc2Vjb25kLXZvd2Vscy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDIzdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvc2Vjb25kX3Zvd2Vsc19kZXRhaWxzLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMTR2aCAydmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiBhdXRvIDEwMHZoO1xufVxuXG4vKiBQaG9uaWNzIENhdGVnb3JpZXMgKi9cbiNzaG9ydF92b3dlbHMge1xuICAgIG1hcmdpbi10b3A6IDE3dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHdpZHRoOiA1MnZoO1xuICAgIG1hcmdpbjogOXZoIDB2aCAwdmggMjN2aDtcbn1cbiNsb25nX3Zvd2VscyB7XG4gICAgbWFyZ2luOiAzdmggMHZoIDB2aCA0MXZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogODN2aDtcbn1cblxuI3Zvd2VsX3BhaXJzIHtcbiAgICBtYXJnaW46IDJ2aCAwdmggMHZoIDF2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDc2dmg7XG59XG4jeV9zb3VuZHMge1xuICAgIG1hcmdpbjogM3ZoIDB2aCAwdmggNDR2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDg3dmg7XG59XG4jciB7XG4gICAgd2lkdGg6IDg5dmg7XG4gICAgbWFyZ2luOiAydmggMHZoIDB2aCAtNXZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuI3NjaHdhcyB7XG4gICAgbWFyZ2luOiAydmggMHZoIDB2aCA0M3ZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNzF2aDtcbn1cblxuLmNhdGVnb3J5X2J1dHRvbiB7XG4gICAgd2lkdGg6IDM5dmg7XG4gICAgaGVpZ2h0OiAxMi43dmg7XG4gICAgbWFyZ2luOiA0dmggMHZoIDB2aCAyM3ZoO1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICBib3JkZXI6IHNvbGlkIDJweCByZWQ7XG59XG5cbi5jb2x1bW4ge1xuICAgIHBhZGRpbmctdG9wOiAyLjV2aDtcbn1cbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xuLmNvbHVtbjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IHRhYmxlO1xuICBjbGVhcjogYm90aDtcbn1cbiJdfQ== */";
     /***/
   },
 
@@ -6745,10 +6856,21 @@
     var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let ThirdCategoriesComponent = class ThirdCategoriesComponent {
-      constructor(location) {
+      constructor(storage, location) {
+        this.storage = storage;
         this.location = location;
+      }
+
+      ngOnInit() {
+        this.storage.set('unit', 'Third-Grade');
       }
 
       playAudio(event) {
@@ -6768,6 +6890,12 @@
     };
 
     ThirdCategoriesComponent.ctorParameters = () => [{
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
@@ -6778,7 +6906,7 @@
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./third-categories.component.css */
       "./src/app/pages/third-categories/third-categories.component.css")).default]
-    })], ThirdCategoriesComponent);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], ThirdCategoriesComponent);
     /***/
   },
 
@@ -6833,7 +6961,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 40vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('second_consonants_details.png') no-repeat scroll transparent;\n    background-position: 19vh 2vh;\n    background-size: 169vh;\n}\n\n/* Phonics Categories */\n\n#beginning-sounds {\n    background: url('third_sound_begin.png') no-repeat scroll transparent;\n    background-size: 65vh;\n    margin: 17.5vh 0vh 0vh -6vh;\n    height: 13.5vh;\n    cursor: pointer;\n    width: 63vh;\n}\n\n#ending-sounds {\n    background: url('third_sound_end.png') no-repeat scroll transparent;\n    background-size: 55vh;\n    margin: 17.5vh 0vh 0vh 33vh;\n    cursor: pointer;\n    height: 13.5vh;\n    width: 54vh;\n}\n\n#cg {\n    background: url('third_cg.png') no-repeat scroll transparent;\n    background-size: 80vh;\n    cursor: pointer;\n    width: 78vh;\n}\n\n#beginning-blends {\n    background: url('third_blend_begin.png') no-repeat scroll transparent;\n    background-size: 61vh;\n    cursor: pointer;\n    width: 59vh;\n}\n\n#ending-blends {\n    background: url('third_blend_end.png') no-repeat scroll transparent;\n    background-size: 50vh;\n    margin-left: 37vh;\n    cursor: pointer;\n    width: 49vh;\n}\n\n#three-letter-blends {\n    background: url('third_blend_3.png') no-repeat scroll transparent;\n    background-size: 60vh;\n    cursor: pointer;\n    width: 58vh;\n}\n\n#silent-consonants {\n  background: url('third_silent.png') no-repeat scroll transparent;\n  background-size: 29vh;\n  margin-left: 38vh;\n  cursor: pointer;\n  width: 28vh;\n}\n\n#beginning-digraphs {\n  background: url('third_digraph_begin.png') no-repeat scroll transparent;\n  background-size: 91.5vh;\n  cursor: pointer;\n  width: 79vh;\n}\n\n#ending-digraphs {\n  background: url('third_digraph_end.png') no-repeat scroll transparent;\n  background-size: 73vh;\n  display: block;\n  cursor: pointer;\n  width: 71vh;\n}\n\n.category_button {\n    height: 10vh;\n    margin: 1.5vh 0vh 0vh -5vh;\n    border: none;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC1jb25zb25hbnRzLWRldGFpbHMvdGhpcmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixrQkFBa0I7QUFDcEI7O0FBRUE7SUFDSSxvQ0FBb0M7SUFDcEMsNkVBQWdIO0lBQ2hILDZCQUE2QjtJQUM3QixzQkFBc0I7QUFDMUI7O0FBRUEsdUJBQXVCOztBQUN2QjtJQUNJLHFFQUFvRztJQUNwRyxxQkFBcUI7SUFDckIsMkJBQTJCO0lBQzNCLGNBQWM7SUFDZCxlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksbUVBQWtHO0lBQ2xHLHFCQUFxQjtJQUNyQiwyQkFBMkI7SUFDM0IsZUFBZTtJQUNmLGNBQWM7SUFDZCxXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSw0REFBMkY7SUFDM0YscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxxRUFBb0c7SUFDcEcscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxtRUFBa0c7SUFDbEcscUJBQXFCO0lBQ3JCLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksaUVBQWdHO0lBQ2hHLHFCQUFxQjtJQUNyQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0VBQ0UsZ0VBQStGO0VBQy9GLHFCQUFxQjtFQUNyQixpQkFBaUI7RUFDakIsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLHVFQUFzRztFQUN0Ryx1QkFBdUI7RUFDdkIsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLHFFQUFvRztFQUNwRyxxQkFBcUI7RUFDckIsY0FBYztFQUNkLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBRUE7SUFDSSxZQUFZO0lBQ1osMEJBQTBCO0lBQzFCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBQ0EsbUNBQW1DOztBQUNuQztFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC1jb25zb25hbnRzLWRldGFpbHMvdGhpcmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDQwdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvc2Vjb25kX2NvbnNvbmFudHNfZGV0YWlscy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IDE5dmggMnZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTY5dmg7XG59XG5cbi8qIFBob25pY3MgQ2F0ZWdvcmllcyAqL1xuI2JlZ2lubmluZy1zb3VuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3NvdW5kX2JlZ2luLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA2NXZoO1xuICAgIG1hcmdpbjogMTcuNXZoIDB2aCAwdmggLTZ2aDtcbiAgICBoZWlnaHQ6IDEzLjV2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDYzdmg7XG59XG4jZW5kaW5nLXNvdW5kcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvdGhpcmRfc291bmRfZW5kLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA1NXZoO1xuICAgIG1hcmdpbjogMTcuNXZoIDB2aCAwdmggMzN2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgaGVpZ2h0OiAxMy41dmg7XG4gICAgd2lkdGg6IDU0dmg7XG59XG4jY2cge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX2NnLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA4MHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNzh2aDtcbn1cbiNiZWdpbm5pbmctYmxlbmRzIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy90aGlyZF9ibGVuZF9iZWdpbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogNjF2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDU5dmg7XG59XG4jZW5kaW5nLWJsZW5kcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvdGhpcmRfYmxlbmRfZW5kLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA1MHZoO1xuICAgIG1hcmdpbi1sZWZ0OiAzN3ZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNDl2aDtcbn1cbiN0aHJlZS1sZXR0ZXItYmxlbmRzIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy90aGlyZF9ibGVuZF8zLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA2MHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNTh2aDtcbn1cbiNzaWxlbnQtY29uc29uYW50cyB7XG4gIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3NpbGVudC5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICBiYWNrZ3JvdW5kLXNpemU6IDI5dmg7XG4gIG1hcmdpbi1sZWZ0OiAzOHZoO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHdpZHRoOiAyOHZoO1xufVxuI2JlZ2lubmluZy1kaWdyYXBocyB7XG4gIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX2RpZ3JhcGhfYmVnaW4ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgYmFja2dyb3VuZC1zaXplOiA5MS41dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDc5dmg7XG59XG4jZW5kaW5nLWRpZ3JhcGhzIHtcbiAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvdGhpcmRfZGlncmFwaF9lbmQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgYmFja2dyb3VuZC1zaXplOiA3M3ZoO1xuICBkaXNwbGF5OiBibG9jaztcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogNzF2aDtcbn1cblxuLmNhdGVnb3J5X2J1dHRvbiB7XG4gICAgaGVpZ2h0OiAxMHZoO1xuICAgIG1hcmdpbjogMS41dmggMHZoIDB2aCAtNXZoO1xuICAgIGJvcmRlcjogbm9uZTtcbn1cblxuLmNvbHVtbiB7XG4gICAgcGFkZGluZy10b3A6IDIuNXZoO1xufVxuLyogQ2xlYXIgZmxvYXRzIGFmdGVyIHRoZSBjb2x1bW5zICovXG4uY29sdW1uOmFmdGVyIHtcbiAgY29udGVudDogXCJcIjtcbiAgZGlzcGxheTogdGFibGU7XG4gIGNsZWFyOiBib3RoO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 23vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('second_consonants_details.png') no-repeat scroll transparent;\n    background-position: 19vh 2vh;\n    background-size: auto 100vh;\n}\n\n/* Phonics Categories */\n\n#beginning-sounds {\n  margin: 11.5vh 1vh 0vh 15vh;\n  height: 10.5vh;\n  cursor: pointer;\n  width: 71vh;\n}\n\n#ending-sounds {\n  margin: 0.5vh 0vh 0vh 26vh;\n  cursor: pointer;\n  height: 9.5vh;\n  width: 62vh;\n\n}\n\n#cg {\n  cursor: pointer;\n  width: 96vh;\n  margin: 0.5vh 0vh 0vh 26vh;\n  width: 78vh;\n}\n\n#beginning-blends {\n  margin: 0.5vh 0vh 0vh 26vh;\n  height: 9vh;\n    cursor: pointer;\n    width: 95vh;\n}\n\n#ending-blends {\n  margin: 0.5vh 0vh 0vh 12vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 71vh;\n}\n\n#three-letter-blends {\n  margin: 0.5vh 0vh 0vh 9vh;\n  height: 7vh;\n  cursor: pointer;\n  width: 75vh;\n}\n\n#silent-consonants {\n  margin: 0.5vh 0vh 0vh 28vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 37vh;\n}\n\n#beginning-digraphs {\n  margin: 0.5vh 0vh 0vh 11vh;\n  height: 9vh;\n  cursor: pointer;\n  width: 91vh;\n}\n\n#ending-digraphs {\n  margin: 0.5vh 0vh 0vh 26vh;\n  height: 9vh;\n  display: block;\n  cursor: pointer;\n  width: 92vh;\n}\n\n.category_button {\n    height: 10vh;\n    margin: 1.5vh 0vh 0vh 10vh;\n    border: none;\n    background-color: transparent;\n    display: block;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC1jb25zb25hbnRzLWRldGFpbHMvdGhpcmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixrQkFBa0I7QUFDcEI7O0FBRUE7SUFDSSxvQ0FBb0M7SUFDcEMsNkVBQWdIO0lBQ2hILDZCQUE2QjtJQUM3QiwyQkFBMkI7QUFDL0I7O0FBRUEsdUJBQXVCOztBQUN2QjtFQUNFLDJCQUEyQjtFQUMzQixjQUFjO0VBQ2QsZUFBZTtFQUNmLFdBQVc7QUFDYjs7QUFDQTtFQUNFLDBCQUEwQjtFQUMxQixlQUFlO0VBQ2YsYUFBYTtFQUNiLFdBQVc7O0FBRWI7O0FBQ0E7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLDBCQUEwQjtFQUMxQixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztJQUNULGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSx5QkFBeUI7RUFDekIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBQ0E7RUFDRSwwQkFBMEI7RUFDMUIsV0FBVztFQUNYLGNBQWM7RUFDZCxlQUFlO0VBQ2YsV0FBVztBQUNiOztBQUVBO0lBQ0ksWUFBWTtJQUNaLDBCQUEwQjtJQUMxQixZQUFZO0lBQ1osNkJBQTZCO0lBQzdCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBQ0EsbUNBQW1DOztBQUNuQztFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC1jb25zb25hbnRzLWRldGFpbHMvdGhpcmQtY29uc29uYW50cy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDIzdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvc2Vjb25kX2NvbnNvbmFudHNfZGV0YWlscy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IDE5dmggMnZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogYXV0byAxMDB2aDtcbn1cblxuLyogUGhvbmljcyBDYXRlZ29yaWVzICovXG4jYmVnaW5uaW5nLXNvdW5kcyB7XG4gIG1hcmdpbjogMTEuNXZoIDF2aCAwdmggMTV2aDtcbiAgaGVpZ2h0OiAxMC41dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDcxdmg7XG59XG4jZW5kaW5nLXNvdW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGhlaWdodDogOS41dmg7XG4gIHdpZHRoOiA2MnZoO1xuXG59XG4jY2cge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHdpZHRoOiA5NnZoO1xuICBtYXJnaW46IDAuNXZoIDB2aCAwdmggMjZ2aDtcbiAgd2lkdGg6IDc4dmg7XG59XG4jYmVnaW5uaW5nLWJsZW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDk1dmg7XG59XG4jZW5kaW5nLWJsZW5kcyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAxMnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICB3aWR0aDogNzF2aDtcbn1cbiN0aHJlZS1sZXR0ZXItYmxlbmRzIHtcbiAgbWFyZ2luOiAwLjV2aCAwdmggMHZoIDl2aDtcbiAgaGVpZ2h0OiA3dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDc1dmg7XG59XG4jc2lsZW50LWNvbnNvbmFudHMge1xuICBtYXJnaW46IDAuNXZoIDB2aCAwdmggMjh2aDtcbiAgaGVpZ2h0OiA5dmg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDM3dmg7XG59XG4jYmVnaW5uaW5nLWRpZ3JhcGhzIHtcbiAgbWFyZ2luOiAwLjV2aCAwdmggMHZoIDExdmg7XG4gIGhlaWdodDogOXZoO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHdpZHRoOiA5MXZoO1xufVxuI2VuZGluZy1kaWdyYXBocyB7XG4gIG1hcmdpbjogMC41dmggMHZoIDB2aCAyNnZoO1xuICBoZWlnaHQ6IDl2aDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgd2lkdGg6IDkydmg7XG59XG5cbi5jYXRlZ29yeV9idXR0b24ge1xuICAgIGhlaWdodDogMTB2aDtcbiAgICBtYXJnaW46IDEuNXZoIDB2aCAwdmggMTB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbi5jb2x1bW4ge1xuICAgIHBhZGRpbmctdG9wOiAyLjV2aDtcbn1cbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xuLmNvbHVtbjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IHRhYmxlO1xuICBjbGVhcjogYm90aDtcbn0iXX0= */";
     /***/
   },
 
@@ -6960,7 +7088,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n      background: url('third_vowelconsonants_details.png') no-repeat scroll transparent;\n      background-position: 20vh;\n      background-size: 215vh;\n  }\n  \n  /* Second Categories */\n  \n  #r {\n      background: url('third_r.png') no-repeat scroll transparent;\n      background-size: 90vh;\n      margin-top: 9vh;\n      cursor: pointer;\n      width: 88vh;\n  }\n  \n  #two-letter-blends {\n    background: url('third_two.png') no-repeat scroll transparent;\n    background-size: 77vh;\n    width: 75vh;\n    cursor: pointer;\n  }\n  \n  #three-letter-blends {\n    background: url('third_three.png') no-repeat scroll transparent;\n    background-size: 76.5vh;\n    cursor: pointer;\n    width: 74vh;\n  }\n  \n  .column {\n    padding-top: 12vh;\n  }\n  \n  .category_button {\n      margin: 14.5vh 0vh 0vh 40vh;\n      height: 14vh;\n      border: none;\n      display: inherit;\n  }\n  \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO01BQ3BDLGlGQUFvSDtNQUNwSCx5QkFBeUI7TUFDekIsc0JBQXNCO0VBQzFCOztFQUVBLHNCQUFzQjs7RUFDdEI7TUFDSSwyREFBMEY7TUFDMUYscUJBQXFCO01BQ3JCLGVBQWU7TUFDZixlQUFlO01BQ2YsV0FBVztFQUNmOztFQUNBO0lBQ0UsNkRBQTRGO0lBQzVGLHFCQUFxQjtJQUNyQixXQUFXO0lBQ1gsZUFBZTtFQUNqQjs7RUFDQTtJQUNFLCtEQUE4RjtJQUM5Rix1QkFBdUI7SUFDdkIsZUFBZTtJQUNmLFdBQVc7RUFDYjs7RUFFQTtJQUNFLGlCQUFpQjtFQUNuQjs7RUFFQTtNQUNJLDJCQUEyQjtNQUMzQixZQUFZO01BQ1osWUFBWTtNQUNaLGdCQUFnQjtFQUNwQiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3RoaXJkLWNhdGVnb3JpZXMvdGhpcmQtdm93ZWxjb25zb25hbnRzLWRldGFpbHMvdGhpcmQtdm93ZWxjb25zb25hbnRzLWRldGFpbHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWJvZHkge1xuICAgIHdpZHRoOiAxNjkuN3ZoO1xuICAgIGhlaWdodDogMHZoO1xuICAgIHBhZGRpbmctbGVmdDogNDB2aDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgXG4gICNiYWNrZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9iYWNrZ3JvdW5kcy90aGlyZF92b3dlbGNvbnNvbmFudHNfZGV0YWlscy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMjB2aDtcbiAgICAgIGJhY2tncm91bmQtc2l6ZTogMjE1dmg7XG4gIH1cbiAgXG4gIC8qIFNlY29uZCBDYXRlZ29yaWVzICovXG4gICNyIHtcbiAgICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3IucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICAgIGJhY2tncm91bmQtc2l6ZTogOTB2aDtcbiAgICAgIG1hcmdpbi10b3A6IDl2aDtcbiAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgIHdpZHRoOiA4OHZoO1xuICB9XG4gICN0d28tbGV0dGVyLWJsZW5kcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvdGhpcmRfdHdvLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA3N3ZoO1xuICAgIHdpZHRoOiA3NXZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuICAjdGhyZWUtbGV0dGVyLWJsZW5kcyB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvdGhpcmRfdGhyZWUucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDc2LjV2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDc0dmg7XG4gIH1cblxuICAuY29sdW1uIHtcbiAgICBwYWRkaW5nLXRvcDogMTJ2aDtcbiAgfVxuXG4gIC5jYXRlZ29yeV9idXR0b24ge1xuICAgICAgbWFyZ2luOiAxNC41dmggMHZoIDB2aCA0MHZoO1xuICAgICAgaGVpZ2h0OiAxNHZoO1xuICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgZGlzcGxheTogaW5oZXJpdDtcbiAgfVxuICAiXX0= */";
+    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 23vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n      background: url('third_vowelconsonants_details.png') no-repeat scroll transparent;\n      background-position: 20vh;\n      background-size: auto 100vh;\n  }\n  \n  /* Second Categories */\n  \n  #r {\n    margin: 0 0vh 5vh 10vh;\n  }\n  \n  #two-letter-blends {\n    height: 27vh;\n    margin: 0 0vh 0 15vh;\n  }\n  \n  #three-letter-blends {\n    width: 158vh;\n  }\n  \n  .column {\n    padding-top: 12vh;\n  }\n  \n  .category_button {\n      margin: 0 0vh 5vh 0;\n      height: 28vh;\n      width: 141vh;\n      border: none;\n      display: inherit;\n      cursor: pointer;\n      background-color: transparent;\n  }\n  \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO01BQ3BDLGlGQUFvSDtNQUNwSCx5QkFBeUI7TUFDekIsMkJBQTJCO0VBQy9COztFQUVBLHNCQUFzQjs7RUFDdEI7SUFDRSxzQkFBc0I7RUFDeEI7O0VBQ0E7SUFDRSxZQUFZO0lBQ1osb0JBQW9CO0VBQ3RCOztFQUNBO0lBQ0UsWUFBWTtFQUNkOztFQUVBO0lBQ0UsaUJBQWlCO0VBQ25COztFQUVBO01BQ0ksbUJBQW1CO01BQ25CLFlBQVk7TUFDWixZQUFZO01BQ1osWUFBWTtNQUNaLGdCQUFnQjtNQUNoQixlQUFlO01BQ2YsNkJBQTZCO0VBQ2pDIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy90aGlyZC12b3dlbGNvbnNvbmFudHMtZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiAyM3ZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICAgICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2JhY2tncm91bmRzL3RoaXJkX3Zvd2VsY29uc29uYW50c19kZXRhaWxzLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAyMHZoO1xuICAgICAgYmFja2dyb3VuZC1zaXplOiBhdXRvIDEwMHZoO1xuICB9XG4gIFxuICAvKiBTZWNvbmQgQ2F0ZWdvcmllcyAqL1xuICAjciB7XG4gICAgbWFyZ2luOiAwIDB2aCA1dmggMTB2aDtcbiAgfVxuICAjdHdvLWxldHRlci1ibGVuZHMge1xuICAgIGhlaWdodDogMjd2aDtcbiAgICBtYXJnaW46IDAgMHZoIDAgMTV2aDtcbiAgfVxuICAjdGhyZWUtbGV0dGVyLWJsZW5kcyB7XG4gICAgd2lkdGg6IDE1OHZoO1xuICB9XG5cbiAgLmNvbHVtbiB7XG4gICAgcGFkZGluZy10b3A6IDEydmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9uIHtcbiAgICAgIG1hcmdpbjogMCAwdmggNXZoIDA7XG4gICAgICBoZWlnaHQ6IDI4dmg7XG4gICAgICB3aWR0aDogMTQxdmg7XG4gICAgICBib3JkZXI6IG5vbmU7XG4gICAgICBkaXNwbGF5OiBpbmhlcml0O1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIH1cbiAgIl19 */";
     /***/
   },
 
@@ -7087,7 +7215,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 40vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('third_vowels_details.png') no-repeat scroll transparent;\n    background-position: 14vh 2vh;\n    background-size: 173vh;\n}\n\n/* Phonics Categories */\n\n#short_vowels {\n    background: url('third_vowels_short.png') no-repeat scroll transparent;\n    background-size: 34vh;\n    margin-top: 17vh;\n    cursor: pointer;\n    width: 32vh;\n}\n\n#long_vowels {\n    background: url('third_vowels_long.png') no-repeat scroll transparent;\n    background-size: 30vh;\n    margin: 17vh 0vh 0vh 7vh;\n    cursor: pointer;\n    width: 28vh;\n}\n\n#schwas {\n    background: url('third_vowels_schwa.png') no-repeat scroll transparent;\n    background-size: 41vh;\n    margin-left: 3vh;\n    cursor: pointer;\n    width: 39vh;\n}\n\n#vowel_pairs {\n    background: url('third_vowels_pairs.png') no-repeat scroll transparent;\n    background-size: 33vh;\n    cursor: pointer;\n    width: 31vh;\n}\n\n#y_sounds {\n    background: url('third_vowels_y.png') no-repeat scroll transparent;\n    background-size: 55.5vh;\n    margin-left: 8vh;\n    cursor: pointer;\n    width: 54vh;\n}\n\n#silent-e {\n    background: url('third_vowels_e.png') no-repeat scroll transparent;\n    background-size: 44vh;\n    margin-left: 62vh;\n    cursor: pointer;\n    width: 43vh;\n}\n\n#r {\n    background: url('third_vowels_r.png') no-repeat scroll transparent;\n    background-size: 38vh;\n    cursor: pointer;\n    width: 36vh;\n}\n\n.category_button {\n    width: 39vh;\n    height: 15.7vh;\n    margin: 4vh 0vh 0vh 23vh;\n    border: none;\n}\n\n.column {\n    padding-top: 2.5vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbHMtZGV0YWlscy90aGlyZC12b3dlbHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLHdFQUEyRztJQUMzRyw2QkFBNkI7SUFDN0Isc0JBQXNCO0FBQzFCOztBQUVBLHVCQUF1Qjs7QUFDdkI7SUFDSSxzRUFBcUc7SUFDckcscUJBQXFCO0lBQ3JCLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0kscUVBQW9HO0lBQ3BHLHFCQUFxQjtJQUNyQix3QkFBd0I7SUFDeEIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFDQTtJQUNJLHNFQUFxRztJQUNyRyxxQkFBcUI7SUFDckIsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxzRUFBcUc7SUFDckcscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxrRUFBaUc7SUFDakcsdUJBQXVCO0lBQ3ZCLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsV0FBVztBQUNmOztBQUNBO0lBQ0ksa0VBQWlHO0lBQ2pHLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFDQTtJQUNJLGtFQUFpRztJQUNqRyxxQkFBcUI7SUFDckIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxjQUFjO0lBQ2Qsd0JBQXdCO0lBQ3hCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBQ0EsbUNBQW1DOztBQUNuQztFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbHMtZGV0YWlscy90aGlyZC12b3dlbHMtZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gIHdpZHRoOiAxNjkuN3ZoO1xuICBoZWlnaHQ6IDB2aDtcbiAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbiNiYWNrZ3JvdW5kIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGICFpbXBvcnRhbnQ7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi8uLi8uLi8uLi9hc3NldHMvaW1nL2JhY2tncm91bmRzL3RoaXJkX3Zvd2Vsc19kZXRhaWxzLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMTR2aCAydmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAxNzN2aDtcbn1cblxuLyogUGhvbmljcyBDYXRlZ29yaWVzICovXG4jc2hvcnRfdm93ZWxzIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy90aGlyZF92b3dlbHNfc2hvcnQucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM0dmg7XG4gICAgbWFyZ2luLXRvcDogMTd2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDMydmg7XG59XG4jbG9uZ192b3dlbHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3Zvd2Vsc19sb25nLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzMHZoO1xuICAgIG1hcmdpbjogMTd2aCAwdmggMHZoIDd2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDI4dmg7XG59XG4jc2Nod2FzIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy90aGlyZF92b3dlbHNfc2Nod2EucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDQxdmg7XG4gICAgbWFyZ2luLWxlZnQ6IDN2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDM5dmg7XG59XG4jdm93ZWxfcGFpcnMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3Zvd2Vsc19wYWlycy5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzN2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDMxdmg7XG59XG4jeV9zb3VuZHMge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3Zvd2Vsc195LnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA1NS41dmg7XG4gICAgbWFyZ2luLWxlZnQ6IDh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDU0dmg7XG59XG4jc2lsZW50LWUge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL3RoaXJkX3Zvd2Vsc19lLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiA0NHZoO1xuICAgIG1hcmdpbi1sZWZ0OiA2MnZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB3aWR0aDogNDN2aDtcbn1cbiNyIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy90aGlyZF92b3dlbHNfci5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgd2lkdGg6IDM2dmg7XG59XG5cbi5jYXRlZ29yeV9idXR0b24ge1xuICAgIHdpZHRoOiAzOXZoO1xuICAgIGhlaWdodDogMTUuN3ZoO1xuICAgIG1hcmdpbjogNHZoIDB2aCAwdmggMjN2aDtcbiAgICBib3JkZXI6IG5vbmU7XG59XG5cbi5jb2x1bW4ge1xuICAgIHBhZGRpbmctdG9wOiAyLjV2aDtcbn1cbi8qIENsZWFyIGZsb2F0cyBhZnRlciB0aGUgY29sdW1ucyAqL1xuLmNvbHVtbjphZnRlciB7XG4gIGNvbnRlbnQ6IFwiXCI7XG4gIGRpc3BsYXk6IHRhYmxlO1xuICBjbGVhcjogYm90aDtcbn1cbiJdfQ== */";
+    __webpack_exports__["default"] = "#main-body {\n  width: 169.7vh;\n  height: 0vh;\n  padding-left: 23vh;\n  position: relative;\n}\n\n#background {\n    background-color: #FFFFFF !important;\n    background: url('third_vowels_details.png') no-repeat scroll transparent;\n    background-position: 14vh 2vh;\n    background-size: auto 100vh;\n}\n\n/* Phonics Categories */\n\n#short_vowels {\n    width: 32%;\n    margin-left: 13%;\n    cursor: pointer;\n}\n\n#long_vowels {\n    width: 42%;\n    margin-left: 24%;\n    cursor: pointer;\n}\n\n#vowel_pairs {\n    width: 43%;\n    cursor: pointer;\n}\n\n#y_sounds {\n    width: 47%;\n    margin-left: 24%;\n    cursor: pointer;\n}\n\n#r {\n    width: 44%;\n    cursor: pointer;\n}\n\n#schwas {\n    width: 37%;\n    margin-left: 24%;\n    cursor: pointer;\n}\n\n#silent-e {\n    width: 37%;\n    margin-left: 14%;\n    cursor: pointer;\n}\n\n.category_button {\n    width: 70vh;\n    height: 13vh;\n    border: none;\n    display: block;\n    background: transparent;\n}\n\n.column {\n    padding-top: 10vh;\n}\n\n/* Clear floats after the columns */\n\n.column:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvdGhpcmQtY2F0ZWdvcmllcy90aGlyZC12b3dlbHMtZGV0YWlscy90aGlyZC12b3dlbHMtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLHdFQUEyRztJQUMzRyw2QkFBNkI7SUFDN0IsMkJBQTJCO0FBQy9COztBQUVBLHVCQUF1Qjs7QUFDdkI7SUFDSSxVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLGVBQWU7QUFDbkI7O0FBQ0E7SUFDSSxVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLFVBQVU7SUFDVixlQUFlO0FBQ25COztBQUVBO0lBQ0ksVUFBVTtJQUNWLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksVUFBVTtJQUNWLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixZQUFZO0lBQ1osY0FBYztJQUNkLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFDQSxtQ0FBbUM7O0FBQ25DO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxXQUFXO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy90aGlyZC1jYXRlZ29yaWVzL3RoaXJkLXZvd2Vscy1kZXRhaWxzL3RoaXJkLXZvd2Vscy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgd2lkdGg6IDE2OS43dmg7XG4gIGhlaWdodDogMHZoO1xuICBwYWRkaW5nLWxlZnQ6IDIzdmg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuI2JhY2tncm91bmQge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uLy4uLy4uL2Fzc2V0cy9pbWcvYmFja2dyb3VuZHMvdGhpcmRfdm93ZWxzX2RldGFpbHMucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAxNHZoIDJ2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGF1dG8gMTAwdmg7XG59XG5cbi8qIFBob25pY3MgQ2F0ZWdvcmllcyAqL1xuI3Nob3J0X3Zvd2VscyB7XG4gICAgd2lkdGg6IDMyJTtcbiAgICBtYXJnaW4tbGVmdDogMTMlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cbiNsb25nX3Zvd2VscyB7XG4gICAgd2lkdGg6IDQyJTtcbiAgICBtYXJnaW4tbGVmdDogMjQlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuI3Zvd2VsX3BhaXJzIHtcbiAgICB3aWR0aDogNDMlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuI3lfc291bmRzIHtcbiAgICB3aWR0aDogNDclO1xuICAgIG1hcmdpbi1sZWZ0OiAyNCU7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4jciB7XG4gICAgd2lkdGg6IDQ0JTtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbiNzY2h3YXMge1xuICAgIHdpZHRoOiAzNyU7XG4gICAgbWFyZ2luLWxlZnQ6IDI0JTtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbiNzaWxlbnQtZSB7XG4gICAgd2lkdGg6IDM3JTtcbiAgICBtYXJnaW4tbGVmdDogMTQlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLmNhdGVnb3J5X2J1dHRvbiB7XG4gICAgd2lkdGg6IDcwdmg7XG4gICAgaGVpZ2h0OiAxM3ZoO1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcbn1cblxuLmNvbHVtbiB7XG4gICAgcGFkZGluZy10b3A6IDEwdmg7XG59XG4vKiBDbGVhciBmbG9hdHMgYWZ0ZXIgdGhlIGNvbHVtbnMgKi9cbi5jb2x1bW46YWZ0ZXIge1xuICBjb250ZW50OiBcIlwiO1xuICBkaXNwbGF5OiB0YWJsZTtcbiAgY2xlYXI6IGJvdGg7XG59XG4iXX0= */";
     /***/
   },
 
@@ -7164,127 +7292,6 @@
   },
 
   /***/
-  "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css":
-  /*!*********************************************************************************************************!*\
-    !*** ./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css ***!
-    \*********************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppPagesWordStructuresFiguresOfSpeechDetailsFiguresOfSpeechDetailsComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #onomatopoeia{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #irony{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #homophones{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #homographs{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row1 {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .row2{\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL2ZpZ3VyZXMtb2Ytc3BlZWNoLWRldGFpbHMvZmlndXJlcy1vZi1zcGVlY2gtZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGlHQUFpRztJQUNqRywyQkFBMkI7SUFDM0Isa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxhQUFhO0lBQ2IsaUJBQWlCO0VBQ25COztFQUVBO0lBQ0UsYUFBYTtJQUNiLGlCQUFpQjtFQUNuQjs7RUFFQTtJQUNFLFdBQVc7SUFDWCxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixpQkFBaUI7RUFDbkI7O0VBRUE7O0lBRUUsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjs7RUFFQTtNQUNJLFlBQVk7TUFDWix5QkFBeUI7RUFDN0IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy93b3JkLXN0cnVjdHVyZXMvZmlndXJlcy1vZi1zcGVlY2gtZGV0YWlscy9maWd1cmVzLW9mLXNwZWVjaC1kZXRhaWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbWFpbi1ib2R5IHtcbiAgICB3aWR0aDogMTY5Ljd2aDtcbiAgICBoZWlnaHQ6IDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDQwdmg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIFxuICAjYmFja2dyb3VuZCB7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGICFpbXBvcnRhbnQ7XG4gIH1cblxuICAjb25vbWF0b3BvZWlhe1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNpcm9ueXtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAjaG9tb3Bob25lc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAjaG9tb2dyYXBoc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93MSB7XG4gICAgZmxvYXQ6IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogMjB2aDtcbiAgfVxuXG4gIC5yb3cye1xuICAgIGZsb2F0OiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IDIwdmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9ue1xuICAgIHdpZHRoOiAzOHZoO1xuICAgIGhlaWdodDogMjZ2aDtcbiAgICBtYXJnaW46IDF2aCA1dmggMHZoIDB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIH1cblxuICAuY29sdW1uXG4gIHtcbiAgICBwYWRkaW5nLXRvcDogNDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDEwdmg7XG4gIH1cblxuICBpbWcge1xuICAgICAgaGVpZ2h0OiAzMHZoO1xuICAgICAgbWFyZ2luOiAzMHZoIDB2aCAwdmggMTB2aDtcbiAgfSJdfQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts":
-  /*!********************************************************************************************************!*\
-    !*** ./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts ***!
-    \********************************************************************************************************/
-
-  /*! exports provided: FiguresOfSpeechDetailsComponent */
-
-  /***/
-  function srcAppPagesWordStructuresFiguresOfSpeechDetailsFiguresOfSpeechDetailsComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "FiguresOfSpeechDetailsComponent", function () {
-      return FiguresOfSpeechDetailsComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-
-    let FiguresOfSpeechDetailsComponent = class FiguresOfSpeechDetailsComponent {
-      constructor(location) {
-        this.location = location;
-      }
-
-      ngOnInit() {}
-
-      goBack() {
-        this.location.back();
-      }
-
-    };
-
-    FiguresOfSpeechDetailsComponent.ctorParameters = () => [{
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
-    }];
-
-    FiguresOfSpeechDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./figures-of-speech-details.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.html")).default,
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./figures-of-speech-details.component.css */
-      "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.css")).default]
-    })], FiguresOfSpeechDetailsComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/pages/word-structures/figures-of-speech-details/index.ts":
-  /*!**************************************************************************!*\
-    !*** ./src/app/pages/word-structures/figures-of-speech-details/index.ts ***!
-    \**************************************************************************/
-
-  /*! exports provided: FiguresOfSpeechDetailsComponent */
-
-  /***/
-  function srcAppPagesWordStructuresFiguresOfSpeechDetailsIndexTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./figures-of-speech-details.component */
-    "./src/app/pages/word-structures/figures-of-speech-details/figures-of-speech-details.component.ts");
-    /* harmony reexport (safe) */
-
-
-    __webpack_require__.d(__webpack_exports__, "FiguresOfSpeechDetailsComponent", function () {
-      return _figures_of_speech_details_component__WEBPACK_IMPORTED_MODULE_1__["FiguresOfSpeechDetailsComponent"];
-    });
-    /***/
-
-  },
-
-  /***/
   "./src/app/pages/word-structures/index.ts":
   /*!************************************************!*\
     !*** ./src/app/pages/word-structures/index.ts ***!
@@ -7320,127 +7327,6 @@
   },
 
   /***/
-  "./src/app/pages/word-structures/word-structures-details/index.ts":
-  /*!************************************************************************!*\
-    !*** ./src/app/pages/word-structures/word-structures-details/index.ts ***!
-    \************************************************************************/
-
-  /*! exports provided: WordStructuresDetailsComponent */
-
-  /***/
-  function srcAppPagesWordStructuresWordStructuresDetailsIndexTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _word_structures_details_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./word-structures-details.component */
-    "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts");
-    /* harmony reexport (safe) */
-
-
-    __webpack_require__.d(__webpack_exports__, "WordStructuresDetailsComponent", function () {
-      return _word_structures_details_component__WEBPACK_IMPORTED_MODULE_1__["WordStructuresDetailsComponent"];
-    });
-    /***/
-
-  },
-
-  /***/
-  "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css":
-  /*!*****************************************************************************************************!*\
-    !*** ./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css ***!
-    \*****************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppPagesWordStructuresWordStructuresDetailsWordStructuresDetailsComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #base-and-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #comparative-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #plural-endings{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #irregular-plurals{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row1 {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .row2{\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy1kZXRhaWxzL3dvcmQtc3RydWN0dXJlcy1kZXRhaWxzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxvQ0FBb0M7RUFDeEM7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGlHQUFpRztJQUNqRywyQkFBMkI7SUFDM0Isa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGFBQWE7SUFDYixpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxhQUFhO0lBQ2IsaUJBQWlCO0VBQ25COztFQUVBO0lBQ0UsV0FBVztJQUNYLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLGlCQUFpQjtFQUNuQjs7RUFFQTs7SUFFRSxpQkFBaUI7SUFDakIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksWUFBWTtNQUNaLHlCQUF5QjtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dvcmQtc3RydWN0dXJlcy93b3JkLXN0cnVjdHVyZXMtZGV0YWlscy93b3JkLXN0cnVjdHVyZXMtZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICB9XG5cbiAgI2Jhc2UtYW5kLWVuZGluZ3N7XG4gICAgYmFja2dyb3VuZDogdXJsKCcvLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL1BsYWNlaG9sZGVyXFwgYnV0dG9uLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAtMTB2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM4dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG5cbiAgI2NvbXBhcmF0aXZlLWVuZGluZ3N7XG4gICAgYmFja2dyb3VuZDogdXJsKCcvLi4vLi4vYXNzZXRzL2ltZy9idXR0b25zL1BsYWNlaG9sZGVyXFwgYnV0dG9uLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgdHJhbnNwYXJlbnQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAtMTB2aDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDM4dmg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG5cbiAgI3BsdXJhbC1lbmRpbmdze1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNpcnJlZ3VsYXItcGx1cmFsc3tcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93MSB7XG4gICAgZmxvYXQ6IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogMjB2aDtcbiAgfVxuXG4gIC5yb3cye1xuICAgIGZsb2F0OiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IDIwdmg7XG4gIH1cblxuICAuY2F0ZWdvcnlfYnV0dG9ue1xuICAgIHdpZHRoOiAzOHZoO1xuICAgIGhlaWdodDogMjZ2aDtcbiAgICBtYXJnaW46IDF2aCA1dmggMHZoIDB2aDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIH1cblxuICAuY29sdW1uXG4gIHtcbiAgICBwYWRkaW5nLXRvcDogNDB2aDtcbiAgICBwYWRkaW5nLWxlZnQ6IDEwdmg7XG4gIH1cblxuICBpbWcge1xuICAgICAgaGVpZ2h0OiAzMHZoO1xuICAgICAgbWFyZ2luOiAzMHZoIDB2aCAwdmggMTB2aDtcbiAgfSJdfQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts":
-  /*!****************************************************************************************************!*\
-    !*** ./src/app/pages/word-structures/word-structures-details/word-structures-details.component.ts ***!
-    \****************************************************************************************************/
-
-  /*! exports provided: WordStructuresDetailsComponent */
-
-  /***/
-  function srcAppPagesWordStructuresWordStructuresDetailsWordStructuresDetailsComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "WordStructuresDetailsComponent", function () {
-      return WordStructuresDetailsComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-
-    let WordStructuresDetailsComponent = class WordStructuresDetailsComponent {
-      constructor(location) {
-        this.location = location;
-      }
-
-      ngOnInit() {}
-
-      goBack() {
-        this.location.back();
-      }
-
-    };
-
-    WordStructuresDetailsComponent.ctorParameters = () => [{
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
-    }];
-
-    WordStructuresDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./word-structures-details.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/word-structures/word-structures-details/word-structures-details.component.html")).default,
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./word-structures-details.component.css */
-      "./src/app/pages/word-structures/word-structures-details/word-structures-details.component.css")).default]
-    })], WordStructuresDetailsComponent);
-    /***/
-  },
-
-  /***/
   "./src/app/pages/word-structures/word-structures.component.css":
   /*!*********************************************************************!*\
     !*** ./src/app/pages/word-structures/word-structures.component.css ***!
@@ -7456,7 +7342,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  #wordstructures{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  #figures-of-speech{\n    background: url('/../../assets/img/buttons/Placeholder\\ button.png') no-repeat scroll transparent;\n    background-position: center;\n    margin-left: -10vh;\n    background-size: 38vh;\n    cursor: pointer;\n  }\n  \n  .row {\n    float: center;\n    margin-left: 20vh;\n  }\n  \n  .category_button{\n    width: 38vh;\n    height: 26vh;\n    margin: 1vh 5vh 0vh 0vh;\n    border: none;\n    margin-left: auto;\n  }\n  \n  .column\n  {\n    padding-top: 40vh;\n    padding-left: 10vh;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO0lBQ0UsaUdBQWlHO0lBQ2pHLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxpR0FBaUc7SUFDakcsMkJBQTJCO0lBQzNCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGFBQWE7SUFDYixpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHVCQUF1QjtJQUN2QixZQUFZO0lBQ1osaUJBQWlCO0VBQ25COztFQUVBOztJQUVFLGlCQUFpQjtJQUNqQixrQkFBa0I7RUFDcEI7O0VBRUE7TUFDSSxZQUFZO01BQ1oseUJBQXlCO0VBQzdCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW4tYm9keSB7XG4gICAgd2lkdGg6IDE2OS43dmg7XG4gICAgaGVpZ2h0OiAwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICBcbiAgI2JhY2tncm91bmQge1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xuICB9XG5cbiAgI3dvcmRzdHJ1Y3R1cmVze1xuICAgIGJhY2tncm91bmQ6IHVybCgnLy4uLy4uL2Fzc2V0cy9pbWcvYnV0dG9ucy9QbGFjZWhvbGRlclxcIGJ1dHRvbi5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBtYXJnaW4tbGVmdDogLTEwdmg7XG4gICAgYmFja2dyb3VuZC1zaXplOiAzOHZoO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgfVxuXG4gICNmaWd1cmVzLW9mLXNwZWVjaHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy8uLi8uLi9hc3NldHMvaW1nL2J1dHRvbnMvUGxhY2Vob2xkZXJcXCBidXR0b24ucG5nJykgbm8tcmVwZWF0IHNjcm9sbCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IC0xMHZoO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMzh2aDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cblxuICAucm93IHtcbiAgICBmbG9hdDogY2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OiAyMHZoO1xuICB9XG5cbiAgLmNhdGVnb3J5X2J1dHRvbntcbiAgICB3aWR0aDogMzh2aDtcbiAgICBoZWlnaHQ6IDI2dmg7XG4gICAgbWFyZ2luOiAxdmggNXZoIDB2aCAwdmg7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICB9XG5cbiAgLmNvbHVtblxuICB7XG4gICAgcGFkZGluZy10b3A6IDQwdmg7XG4gICAgcGFkZGluZy1sZWZ0OiAxMHZoO1xuICB9XG5cbiAgaW1nIHtcbiAgICAgIGhlaWdodDogMzB2aDtcbiAgICAgIG1hcmdpbjogMzB2aCAwdmggMHZoIDEwdmg7XG4gIH0iXX0= */";
+    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO01BQ0ksWUFBWTtNQUNaLHlCQUF5QjtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dvcmQtc3RydWN0dXJlcy93b3JkLXN0cnVjdHVyZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWJvZHkge1xuICAgIHdpZHRoOiAxNjkuN3ZoO1xuICAgIGhlaWdodDogMHZoO1xuICAgIHBhZGRpbmctbGVmdDogNDB2aDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgXG4gICNiYWNrZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgfVxuXG4gIGltZyB7XG4gICAgICBoZWlnaHQ6IDMwdmg7XG4gICAgICBtYXJnaW46IDMwdmggMHZoIDB2aCAxMHZoO1xuICB9Il19 */";
     /***/
   },
 
@@ -7504,21 +7390,6 @@
       }
 
       ngOnInit() {}
-
-      playAudio(event) {
-        this.category = new Audio();
-
-        if (event.target.id === 'wordstructures') {
-          this.category.src = '/assets/audio/buttons/word-structures.mp3';
-        } else {
-          this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
-        }
-
-        if (this.category.src !== undefined) {
-          this.category.load();
-          this.category.play();
-        }
-      }
 
       goBack() {
         this.location.back();
@@ -8159,18 +8030,25 @@
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/fesm2015/http.js");
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
 
     let UserService = class UserService {
-      constructor(http) {
+      constructor(storage, http) {
+        this.storage = storage;
         this.http = http;
       }
 
@@ -8181,15 +8059,26 @@
         });
       }
 
+      setResponse(res) {
+        this.storage.set('user_id', res.student._id);
+        this.storage.set('token', res.token);
+      }
+
     };
 
     UserService.ctorParameters = () => [{
-      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
+      type: angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["WebStorageService"],
+      decorators: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"],
+        args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]]
+      }]
+    }, {
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
     }];
 
-    UserService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+    UserService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
       providedIn: 'root'
-    })], UserService);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_3__["SESSION_STORAGE"]))], UserService);
     /***/
   },
 
