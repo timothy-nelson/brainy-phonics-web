@@ -4180,7 +4180,7 @@
     },
     {
         "id": "R-ruh-begin",
-        "audio": "phoneme-R-ruh.m4a",
+        "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
             "word": "raccoons",
@@ -5591,7 +5591,7 @@
         "quiz-words": [
             "whistle",
             "wheelchair",
-            "wheat bread",
+            "wheat-bread",
             "wheel",
             "whisper"
         ],
