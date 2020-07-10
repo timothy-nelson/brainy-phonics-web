@@ -1358,7 +1358,7 @@ let AlphabetQuizComponent = class AlphabetQuizComponent {
         });
         return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
             student: this.storage.get('user_id'),
-            program: '5ec56abe0b1a339ea12a0413',
+            program: '5f087dc650084d0851a04b5b',
             focus_item_name: `alphabet_${letter}`,
             focus_item_unit: this.storage.get('unit'),
             focus_item_subunit: "alphabet",
@@ -3713,7 +3713,7 @@ let PhonemeQuizComponent = class PhonemeQuizComponent {
         });
         return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
             student: this.storage.get('user_id'),
-            program: '5ec56abe0b1a339ea12a0413',
+            program: '5f087dc650084d0851a04b5b',
             focus_item_name: `phoneme_${phonemeId}`,
             focus_item_unit: this.storage.get('unit'),
             focus_item_subunit: "phoneme",
