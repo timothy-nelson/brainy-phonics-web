@@ -7,41 +7,205 @@
   
   #background {
       background-color: #FFFFFF !important;
+      background: url('../../../assets/img/backgrounds/word_structures_bkg.png') no-repeat scroll transparent;
+    background-position: center top;
+    background-size: 148vh;
   }
 
-  #wordstructures{
-    background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
+  #base-ed{
+    background: url('../../../assets/img/buttons/base_words_ed.png') no-repeat scroll transparent;
     background-position: center;
-    margin-left: -10vh;
     background-size: 38vh;
+    margin-left: -9vh;
     cursor: pointer;
   }
 
-  #figures-of-speech{
-    background: url('/../../assets/img/buttons/Placeholder\ button.png') no-repeat scroll transparent;
+  #base-s{
+    background: url('../../../assets/img/buttons/base_words_s.png') no-repeat scroll transparent;
     background-position: center;
-    margin-left: -10vh;
-    background-size: 38vh;
+    background-size: 35vh;
+    width: 35vh;
+    margin-left: -9.5vh;
     cursor: pointer;
   }
 
-  .row {
+  #comparative{
+    background: url('../../../assets/img/buttons/comparative_endings.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 42vh;
+    width: 42vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #plurals{
+    background: url('../../../assets/img/buttons/plurals.png') no-repeat scroll transparent;
+    background-position: center;
+    width: 22vh;
+    background-size: 22vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #possessives{
+    background: url('../../../assets/img/buttons/possessives.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 26vh;
+    width: 26vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #contractions{
+    background: url('../../../assets/img/buttons/contractions.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 28vh;
+    width: 28vh;
+    margin-left: -9.5vh;
+    cursor: pointer;
+  }
+
+  #compound-words{
+    background: url('../../../assets/img/buttons/compound_words.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 35vh;
+    width: 35vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #prefixes{
+    background: url('../../../assets/img/buttons/prefixes.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 25vh;
+    width: 25vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #suffixes{
+    background: url('../../../assets/img/buttons/suffixes.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 25vh;
+    width: 25vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #syllables{
+    background: url('../../../assets/img/buttons/syllables.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 26vh;
+    width: 26vh;
+    margin-left: -10vh;
+    cursor: pointer;
+  }
+
+  #homophones{
+    background: url('../../../assets/img/buttons/homophones.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 26vh;
+    width: 26vh;
+    margin-left: 15vh;
+    cursor: pointer;
+  }
+
+  #homographs{
+    background: url('../../../assets/img/buttons/homographs.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 26vh;
+    width: 26vh;
+    margin-left: 18vh;
+    cursor: pointer;
+  }
+
+  #similies{
+    background: url('../../../assets/img/buttons/similies.png') no-repeat scroll transparent;
+    background-position: bottom;
+    background-size: 40vh;
+    width: 40vh;
+    height: 4vh;
+    margin-left: 12vh;
+    cursor: pointer;
+  }
+
+  #personification{
+    background: url('../../../assets/img/buttons/personification.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 27vh;
+    width: 27vh;
+    margin-left: 31.5vh;
+    cursor: pointer;
+  }
+
+  #hyperbole{
+    background: url('../../../assets/img/buttons/hyperbole.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 20vh;
+    width: 20vh;
+    margin-left: 27.5vh;
+    cursor: pointer;
+  }
+
+  #euphemism{
+    background: url('../../../assets/img/buttons/euphemism.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 23vh;
+    width: 23vh;
+    margin-left: 25vh;
+    cursor: pointer;
+  }
+
+  #irony{
+    background: url('../../../assets/img/buttons/irony.png') no-repeat scroll transparent;
+    background-position: left;
+    background-size: 20vh;
+    width: 15vh;
+    margin-left: 19vh;
+    cursor: pointer;
+  }
+
+  #onomatopoeia{
+    background: url('../../../assets/img/buttons/onomatopoeia.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 28vh;
+    width: 28vh;
+    margin-left: 28.5vh;
+    cursor: pointer;
+  }
+
+  #oxymoron{
+    background: url('../../../assets/img/buttons/oxymoron.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 24vh;
+    width: 24vh;
+    margin-left: 28.5vh;
+    cursor: pointer;
+  }
+
+  #rhyme{
+    background: url('../../../assets/img/buttons/rhyme.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 40vh;
+    width: 40vh;
+    margin-left: 28vh;
+    cursor: pointer;
+  }
+
+  .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10 {
     float: center;
-    margin-left: 20vh;
   }
 
   .category_button{
     width: 38vh;
-    height: 26vh;
-    margin: 1vh 5vh 0vh 0vh;
+    height: 5vh;
+    margin: 1vh 20vh 0vh 0vh;
     border: none;
     margin-left: auto;
   }
 
-  .column
-  {
-    padding-top: 40vh;
-    padding-left: 10vh;
+  .column{
+    padding-top: 20vh;
   }
 
   img {
