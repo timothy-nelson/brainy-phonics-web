@@ -5477,7 +5477,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/work/brainy-phonics-web-team-9356/brainy-phonics-web-team-9356/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/runner/work/brainy-phonics-web/brainy-phonics-web/src/main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -353,7 +353,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! /home/runner/work/brainy-phonics-web-team-9356/brainy-phonics-web-team-9356/src/styles.css */
+    /*! /home/runner/work/brainy-phonics-web/brainy-phonics-web/src/styles.css */
     "./src/styles.css");
     /***/
   }
