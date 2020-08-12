@@ -50,6 +50,26 @@
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/categories/categories.component.html":
+  /*!*******************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/categories/categories.component.html ***!
+    \*******************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsCategoriesCategoriesComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<h1 class=\"category__title\">Word Structures</h1>\n<div class=\"category__button-container\">\n  <button\n    class=\"category__button\"\n    *ngFor=\"let category of categories; index as i\"\n    [ngStyle]=\"bgColor(category.color)\"\n  >\n    <h2\n      class=\"category__text\"\n      [innerHTML]=\"indexCategory(i, category.text)\"\n    ></h2>\n  </button>\n  <button class=\"category__button last-row-button\">\n    Figures of Speech\n  </button>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/alphabet-learn/alphabet-learn.component.html":
   /*!**********************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/alphabet-learn/alphabet-learn.component.html ***!
@@ -645,7 +665,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div id='background'>\n    <div id='main-body'>\n        <img src='/assets/img/backgrounds/construction.png'>\n    </div>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>\n        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>\n    </div>\n</div>";
+    __webpack_exports__["default"] = "<div id=\"side-menu\">\n  <button mat-icon-button class=\"icon\" id=\"back\" (click)=\"goBack()\"></button>\n  <button mat-icon-button class=\"icon\" id=\"home\" routerLink=\"/home\"></button>\n</div>\n<div id=\"background\">\n  <app-categories></app-categories>\n</div>\n";
     /***/
   },
 
@@ -1344,237 +1364,243 @@
     /* harmony import */
 
 
-    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/platform-browser */
-    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-    /* harmony import */
-
-
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/fesm2015/http.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! @angular/flex-layout */
-    "./node_modules/@angular/flex-layout/esm2015/flex-layout.js");
-    /* harmony import */
-
-
-    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! angular-webstorage-service */
-    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-    /* harmony import */
-
-
-    var _app_routing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ./app.routing */
-    "./src/app/app.routing.ts");
-    /* harmony import */
-
-
-    var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-    /*! ./app.component */
-    "./src/app/app.component.ts");
-    /* harmony import */
-
-
-    var _pages_home__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./pages/home */
-    "./src/app/pages/home/index.ts");
-    /* harmony import */
-
-
-    var _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-    /*! ./pages/phoneme-categories */
-    "./src/app/pages/phoneme-categories/index.ts");
-    /* harmony import */
-
-
-    var _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-    /*! ./components/card/card.component */
-    "./src/app/components/card/card.component.ts");
-    /* harmony import */
-
-
-    var _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-    /*! ./pages/phoneme-learn */
-    "./src/app/pages/phoneme-learn/index.ts");
-    /* harmony import */
-
-
-    var _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
-    /*! ./pages/phoneme-quiz */
-    "./src/app/pages/phoneme-quiz/index.ts");
-    /* harmony import */
-
-
-    var _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ./pages/alphabet-learn/alphabet-learn.component */
     "./src/app/pages/alphabet-learn/alphabet-learn.component.ts");
     /* harmony import */
 
 
-    var _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./pages/alphabet-quiz */
     "./src/app/pages/alphabet-quiz/index.ts");
     /* harmony import */
 
 
-    var _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
-    /*! ./pages/list-select/list-select.component */
-    "./src/app/pages/list-select/list-select.component.ts");
+    var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./app.component */
+    "./src/app/app.component.ts");
     /* harmony import */
 
 
-    var _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/platform-browser */
+    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+    /* harmony import */
+
+
+    var _components_card_card_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./components/card/card.component */
+    "./src/app/components/card/card.component.ts");
+    /* harmony import */
+
+
+    var _components_categories_categories_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./components/categories/categories.component */
+    "./src/app/components/categories/categories.component.ts");
+    /* harmony import */
+
+
+    var _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./pages/coins/coins.component */
     "./src/app/pages/coins/coins.component.ts");
     /* harmony import */
 
 
-    var _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
-    /*! ./pages/puzzles/puzzles.component */
-    "./src/app/pages/puzzles/puzzles.component.ts");
-    /* harmony import */
-
-
-    var _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
-    /*! ./pages/puzzle/puzzle.component */
-    "./src/app/pages/puzzle/puzzle.component.ts");
-    /* harmony import */
-
-
-    var _pages_prek_categories__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
-    /*! ./pages/prek-categories */
-    "./src/app/pages/prek-categories/index.ts");
-    /* harmony import */
-
-
-    var _pages_second_categories__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
-    /*! ./pages/second-categories */
-    "./src/app/pages/second-categories/index.ts");
-    /* harmony import */
-
-
-    var _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
-    /*! ./pages/second-categories/second-vowels-details */
-    "./src/app/pages/second-categories/second-vowels-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
-    /*! ./pages/second-categories/second-consonants-details */
-    "./src/app/pages/second-categories/second-consonants-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_third_categories__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
-    /*! ./pages/third-categories */
-    "./src/app/pages/third-categories/index.ts");
-    /* harmony import */
-
-
-    var _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
-    /*! ./pages/third-categories/third-consonants-details */
-    "./src/app/pages/third-categories/third-consonants-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
-    /*! ./pages/third-categories/third-vowels-details */
-    "./src/app/pages/third-categories/third-vowels-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
-    /*! ./pages/third-categories/third-vowelconsonants-details */
-    "./src/app/pages/third-categories/third-vowelconsonants-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_k_categories__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
-    /*! ./pages/k-categories */
-    "./src/app/pages/k-categories/index.ts");
-    /* harmony import */
-
-
-    var _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
-    /*! ./pages/k-categories/k-letters-details */
-    "./src/app/pages/k-categories/k-letters-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
-    /*! ./pages/k-categories/k-ending-sounds-details */
-    "./src/app/pages/k-categories/k-ending-sounds-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
-    /*! ./pages/k-categories/k-beginning-sounds-details */
-    "./src/app/pages/k-categories/k-beginning-sounds-details/index.ts");
-    /* harmony import */
-
-
-    var _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+    var _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./pages/first-categories/first-categories.component */
     "./src/app/pages/first-categories/first-categories.component.ts");
     /* harmony import */
 
 
-    var _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
-    /*! ./pages/first-categories/first-letters-details/first-letters-details.component */
-    "./src/app/pages/first-categories/first-letters-details/first-letters-details.component.ts");
-    /* harmony import */
-
-
-    var _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    var _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./pages/first-categories/first-consonants-details/first-consonants-details.component */
     "./src/app/pages/first-categories/first-consonants-details/first-consonants-details.component.ts");
     /* harmony import */
 
 
-    var _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+    var _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./pages/first-categories/first-letters-details/first-letters-details.component */
+    "./src/app/pages/first-categories/first-letters-details/first-letters-details.component.ts");
+    /* harmony import */
+
+
+    var _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./pages/first-categories/first-vowels-details/first-vowels-details.component */
     "./src/app/pages/first-categories/first-vowels-details/first-vowels-details.component.ts");
     /* harmony import */
 
 
-    var _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+    var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @angular/flex-layout */
+    "./node_modules/@angular/flex-layout/esm2015/flex-layout.js");
+    /* harmony import */
+
+
+    var _pages_home__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./pages/home */
+    "./src/app/pages/home/index.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! ./pages/k-categories/k-beginning-sounds-details */
+    "./src/app/pages/k-categories/k-beginning-sounds-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_k_categories__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./pages/k-categories */
+    "./src/app/pages/k-categories/index.ts");
+    /* harmony import */
+
+
+    var _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./pages/k-categories/k-ending-sounds-details */
+    "./src/app/pages/k-categories/k-ending-sounds-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! ./pages/k-categories/k-letters-details */
+    "./src/app/pages/k-categories/k-letters-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    /*! ./pages/list-select/list-select.component */
+    "./src/app/pages/list-select/list-select.component.ts");
+    /* harmony import */
+
+
+    var _pages_login__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./pages/login */
+    "./src/app/pages/login/index.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./pages/nobodys-better/nobodys-better.component */
     "./src/app/pages/nobodys-better/nobodys-better.component.ts");
     /* harmony import */
 
 
-    var _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+    var _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    /*! ./pages/phoneme-categories */
+    "./src/app/pages/phoneme-categories/index.ts");
+    /* harmony import */
+
+
+    var _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! ./pages/phoneme-learn */
+    "./src/app/pages/phoneme-learn/index.ts");
+    /* harmony import */
+
+
+    var _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! ./pages/phoneme-quiz */
+    "./src/app/pages/phoneme-quiz/index.ts");
+    /* harmony import */
+
+
+    var _pages_prek_categories__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+    /*! ./pages/prek-categories */
+    "./src/app/pages/prek-categories/index.ts");
+    /* harmony import */
+
+
+    var _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+    /*! ./pages/puzzle/puzzle.component */
+    "./src/app/pages/puzzle/puzzle.component.ts");
+    /* harmony import */
+
+
+    var _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+    /*! ./pages/puzzles/puzzles.component */
+    "./src/app/pages/puzzles/puzzles.component.ts");
+    /* harmony import */
+
+
+    var _pages_second_categories__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+    /*! ./pages/second-categories */
+    "./src/app/pages/second-categories/index.ts");
+    /* harmony import */
+
+
+    var _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    /*! ./pages/second-categories/second-consonants-details */
+    "./src/app/pages/second-categories/second-consonants-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+    /*! ./pages/second-categories/second-vowels-details */
+    "./src/app/pages/second-categories/second-vowels-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
     /*! ./pages/secret-stuff/secret-stuff.component */
     "./src/app/pages/secret-stuff/secret-stuff.component.ts");
     /* harmony import */
 
 
-    var _pages_login__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
-    /*! ./pages/login */
-    "./src/app/pages/login/index.ts");
+    var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    /*! angular-webstorage-service */
+    "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
+    /* harmony import */
+
+
+    var _pages_third_categories__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+    /*! ./pages/third-categories */
+    "./src/app/pages/third-categories/index.ts");
+    /* harmony import */
+
+
+    var _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+    /*! ./pages/third-categories/third-consonants-details */
+    "./src/app/pages/third-categories/third-consonants-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+    /*! ./pages/third-categories/third-vowelconsonants-details */
+    "./src/app/pages/third-categories/third-vowelconsonants-details/index.ts");
+    /* harmony import */
+
+
+    var _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
+    /*! ./pages/third-categories/third-vowels-details */
+    "./src/app/pages/third-categories/third-vowels-details/index.ts");
     /* harmony import */
 
 
     var _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
     /*! ./pages/word-structures */
     "./src/app/pages/word-structures/index.ts");
+    /* harmony import */
+
+
+    var _app_routing__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(
+    /*! ./app.routing */
+    "./src/app/app.routing.ts");
 
     let AppModule = class AppModule {};
-    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _pages_home__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_9__["PhonemeCategoriesComponent"], _components_card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"], _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_11__["PhonemeLearnComponent"], _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_12__["PhonemeQuizComponent"], _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_13__["AlphabetLearnComponent"], _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_14__["AlphabetQuizComponent"], _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_15__["ListSelectComponent"], _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_16__["CoinsComponent"], _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_17__["PuzzlesComponent"], _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_18__["PuzzleComponent"], _pages_prek_categories__WEBPACK_IMPORTED_MODULE_19__["PrekCategoriesComponent"], _pages_second_categories__WEBPACK_IMPORTED_MODULE_20__["SecondCategoriesComponent"], _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_21__["SecondVowelsDetailsComponent"], _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_22__["SecondConsonantsDetailsComponent"], _pages_third_categories__WEBPACK_IMPORTED_MODULE_23__["ThirdCategoriesComponent"], _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_24__["ThirdConsonantsDetailsComponent"], _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_25__["ThirdVowelsDetailsComponent"], _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_26__["ThirdVowelconsonantsDetailsComponent"], _pages_k_categories__WEBPACK_IMPORTED_MODULE_27__["KCategoriesComponent"], _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_28__["KLettersDetailsComponent"], _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_29__["KEndingSoundsDetailsComponent"], _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_30__["KBeginningSoundsDetailsComponent"], _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_31__["FirstCategoriesComponent"], _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_32__["FirstLettersDetailsComponent"], _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_33__["FirstConsonantsDetailsComponent"], _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_34__["FirstVowelsDetailsComponent"], _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_35__["NobodysBetterComponent"], _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_36__["SecretStuffComponent"], _pages_login__WEBPACK_IMPORTED_MODULE_37__["LoginComponent"], _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing__WEBPACK_IMPORTED_MODULE_6__["appRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_4__["FlexLayoutModule"], angular_webstorage_service__WEBPACK_IMPORTED_MODULE_5__["StorageServiceModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"]],
-      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
+    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_21__["NgModule"])({
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _pages_home__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"], _pages_phoneme_categories__WEBPACK_IMPORTED_MODULE_23__["PhonemeCategoriesComponent"], _components_card_card_component__WEBPACK_IMPORTED_MODULE_5__["CardComponent"], _pages_phoneme_learn__WEBPACK_IMPORTED_MODULE_24__["PhonemeLearnComponent"], _pages_phoneme_quiz__WEBPACK_IMPORTED_MODULE_25__["PhonemeQuizComponent"], _pages_alphabet_learn_alphabet_learn_component__WEBPACK_IMPORTED_MODULE_1__["AlphabetLearnComponent"], _pages_alphabet_quiz__WEBPACK_IMPORTED_MODULE_2__["AlphabetQuizComponent"], _pages_list_select_list_select_component__WEBPACK_IMPORTED_MODULE_19__["ListSelectComponent"], _pages_coins_coins_component__WEBPACK_IMPORTED_MODULE_7__["CoinsComponent"], _pages_puzzles_puzzles_component__WEBPACK_IMPORTED_MODULE_28__["PuzzlesComponent"], _pages_puzzle_puzzle_component__WEBPACK_IMPORTED_MODULE_27__["PuzzleComponent"], _pages_prek_categories__WEBPACK_IMPORTED_MODULE_26__["PrekCategoriesComponent"], _pages_second_categories__WEBPACK_IMPORTED_MODULE_29__["SecondCategoriesComponent"], _pages_second_categories_second_vowels_details__WEBPACK_IMPORTED_MODULE_31__["SecondVowelsDetailsComponent"], _pages_second_categories_second_consonants_details__WEBPACK_IMPORTED_MODULE_30__["SecondConsonantsDetailsComponent"], _pages_third_categories__WEBPACK_IMPORTED_MODULE_34__["ThirdCategoriesComponent"], _pages_third_categories_third_consonants_details__WEBPACK_IMPORTED_MODULE_35__["ThirdConsonantsDetailsComponent"], _pages_third_categories_third_vowels_details__WEBPACK_IMPORTED_MODULE_37__["ThirdVowelsDetailsComponent"], _pages_third_categories_third_vowelconsonants_details__WEBPACK_IMPORTED_MODULE_36__["ThirdVowelconsonantsDetailsComponent"], _pages_k_categories__WEBPACK_IMPORTED_MODULE_16__["KCategoriesComponent"], _pages_k_categories_k_letters_details__WEBPACK_IMPORTED_MODULE_18__["KLettersDetailsComponent"], _pages_k_categories_k_ending_sounds_details__WEBPACK_IMPORTED_MODULE_17__["KEndingSoundsDetailsComponent"], _pages_k_categories_k_beginning_sounds_details__WEBPACK_IMPORTED_MODULE_15__["KBeginningSoundsDetailsComponent"], _pages_first_categories_first_categories_component__WEBPACK_IMPORTED_MODULE_8__["FirstCategoriesComponent"], _pages_first_categories_first_letters_details_first_letters_details_component__WEBPACK_IMPORTED_MODULE_10__["FirstLettersDetailsComponent"], _pages_first_categories_first_consonants_details_first_consonants_details_component__WEBPACK_IMPORTED_MODULE_9__["FirstConsonantsDetailsComponent"], _pages_first_categories_first_vowels_details_first_vowels_details_component__WEBPACK_IMPORTED_MODULE_11__["FirstVowelsDetailsComponent"], _pages_nobodys_better_nobodys_better_component__WEBPACK_IMPORTED_MODULE_22__["NobodysBetterComponent"], _pages_secret_stuff_secret_stuff_component__WEBPACK_IMPORTED_MODULE_32__["SecretStuffComponent"], _pages_login__WEBPACK_IMPORTED_MODULE_20__["LoginComponent"], _pages_word_structures__WEBPACK_IMPORTED_MODULE_38__["WordStructuresComponent"], _components_categories_categories_component__WEBPACK_IMPORTED_MODULE_6__["CategoriesComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["BrowserModule"], _app_routing__WEBPACK_IMPORTED_MODULE_39__["appRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_12__["FlexLayoutModule"], angular_webstorage_service__WEBPACK_IMPORTED_MODULE_33__["StorageServiceModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_14__["HttpClientModule"]],
+      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
     })], AppModule);
     /***/
   },
@@ -1936,6 +1962,122 @@
       selector: 'app-card',
       template: '<div class="app-card"><ng-content></ng-content></div>'
     })], CardComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/categories/categories.component.css":
+  /*!****************************************************************!*\
+    !*** ./src/app/components/categories/categories.component.css ***!
+    \****************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsCategoriesCategoriesComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ":host {\n  text-align: center;\n}\n\n.category__button-container {\n  width: 75vw;\n  margin: auto;\n}\n\n.category__title {\n  font-size: 4rem;\n  margin: 0;\n}\n\n.category__button {\n  border: 3px solid black;\n  border-radius: 15px;\n  margin: 0.5rem 1rem;\n  min-height: 9.25rem;\n  vertical-align: middle;\n}\n\n.category__text {\n  font-size: 2rem;\n  margin: 0 0 0.5rem 0;\n  min-width: 12.5rem;\n}\n\n.last-row-button {\n  background-color: var(--red);\n  font-size: 3rem;\n  width: 75%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jYXRlZ29yaWVzL2NhdGVnb3JpZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsU0FBUztBQUNYOztBQUVBO0VBQ0UsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtFQUNuQixtQkFBbUI7RUFDbkIsbUJBQW1CO0VBQ25CLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGVBQWU7RUFDZixvQkFBb0I7RUFDcEIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsNEJBQTRCO0VBQzVCLGVBQWU7RUFDZixVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NhdGVnb3JpZXMvY2F0ZWdvcmllcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5jYXRlZ29yeV9fYnV0dG9uLWNvbnRhaW5lciB7XG4gIHdpZHRoOiA3NXZ3O1xuICBtYXJnaW46IGF1dG87XG59XG5cbi5jYXRlZ29yeV9fdGl0bGUge1xuICBmb250LXNpemU6IDRyZW07XG4gIG1hcmdpbjogMDtcbn1cblxuLmNhdGVnb3J5X19idXR0b24ge1xuICBib3JkZXI6IDNweCBzb2xpZCBibGFjaztcbiAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgbWFyZ2luOiAwLjVyZW0gMXJlbTtcbiAgbWluLWhlaWdodDogOS4yNXJlbTtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn1cblxuLmNhdGVnb3J5X190ZXh0IHtcbiAgZm9udC1zaXplOiAycmVtO1xuICBtYXJnaW46IDAgMCAwLjVyZW0gMDtcbiAgbWluLXdpZHRoOiAxMi41cmVtO1xufVxuXG4ubGFzdC1yb3ctYnV0dG9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcmVkKTtcbiAgZm9udC1zaXplOiAzcmVtO1xuICB3aWR0aDogNzUlO1xufVxuIl19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/categories/categories.component.ts":
+  /*!***************************************************************!*\
+    !*** ./src/app/components/categories/categories.component.ts ***!
+    \***************************************************************/
+
+  /*! exports provided: CategoriesComponent */
+
+  /***/
+  function srcAppComponentsCategoriesCategoriesComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CategoriesComponent", function () {
+      return CategoriesComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! src/app/types/enum */
+    "./src/app/types/enum.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    let CategoriesComponent = class CategoriesComponent {
+      constructor() {
+        this.categories = [{
+          text: 'Base Word and Endings<br>ed ing',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].LightGreen
+        }, {
+          text: 'Base Words and Endings<br>s es',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Green
+        }, {
+          text: 'Comparative<br>Endings',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].LightYellow
+        }, {
+          text: 'Plurals',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Brown
+        }, {
+          text: 'Possessives',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Pink
+        }, {
+          text: 'Contractions',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].LightOrange
+        }, {
+          text: 'Compound<br>Words',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Purple
+        }, {
+          text: 'Prefixes',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Blue
+        }, {
+          text: 'Suffixes',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Yellow
+        }, {
+          text: 'Syllables',
+          color: src_app_types_enum__WEBPACK_IMPORTED_MODULE_1__["BgColor"].Orange
+        }];
+      }
+
+      indexCategory(index, text) {
+        return "".concat(index + 1, "<br>").concat(text);
+      }
+
+      bgColor(color) {
+        return {
+          'background-color': "var(".concat(color, ")")
+        };
+      }
+
+    };
+    CategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+      selector: 'app-categories',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./categories.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/categories/categories.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./categories.component.css */
+      "./src/app/components/categories/categories.component.css")).default]
+    })], CategoriesComponent);
     /***/
   },
 
@@ -7407,7 +7549,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "#main-body {\n    width: 169.7vh;\n    height: 0vh;\n    padding-left: 40vh;\n    position: relative;\n  }\n  \n  #background {\n      background-color: #FFFFFF !important;\n  }\n  \n  img {\n      height: 30vh;\n      margin: 30vh 0vh 0vh 10vh;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCOztFQUVBO01BQ0ksb0NBQW9DO0VBQ3hDOztFQUVBO01BQ0ksWUFBWTtNQUNaLHlCQUF5QjtFQUM3QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3dvcmQtc3RydWN0dXJlcy93b3JkLXN0cnVjdHVyZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWJvZHkge1xuICAgIHdpZHRoOiAxNjkuN3ZoO1xuICAgIGhlaWdodDogMHZoO1xuICAgIHBhZGRpbmctbGVmdDogNDB2aDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgXG4gICNiYWNrZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkYgIWltcG9ydGFudDtcbiAgfVxuXG4gIGltZyB7XG4gICAgICBoZWlnaHQ6IDMwdmg7XG4gICAgICBtYXJnaW46IDMwdmggMHZoIDB2aCAxMHZoO1xuICB9Il19 */";
+    __webpack_exports__["default"] = ":host {\n  display: -webkit-box;\n  display: flex;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvd29yZC1zdHJ1Y3R1cmVzL3dvcmQtc3RydWN0dXJlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usb0JBQWE7RUFBYixhQUFhO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy93b3JkLXN0cnVjdHVyZXMvd29yZC1zdHJ1Y3R1cmVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG59XG4iXX0= */";
     /***/
   },
 
@@ -8181,6 +8323,51 @@
       }
 
     }
+    /***/
+
+  },
+
+  /***/
+  "./src/app/types/enum.ts":
+  /*!*******************************!*\
+    !*** ./src/app/types/enum.ts ***!
+    \*******************************/
+
+  /*! exports provided: BgColor */
+
+  /***/
+  function srcAppTypesEnumTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "BgColor", function () {
+      return BgColor;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+
+    var BgColor;
+
+    (function (BgColor) {
+      BgColor["Blue"] = "--blue";
+      BgColor["Brown"] = "--brown";
+      BgColor["LightGreen"] = "--light-green";
+      BgColor["Green"] = "--green";
+      BgColor["Red"] = "--red";
+      BgColor["LightOrange"] = "--light-orange";
+      BgColor["Orange"] = "--orange";
+      BgColor["Pink"] = "--pink";
+      BgColor["Purple"] = "--purple";
+      BgColor["LightYellow"] = "--light-yellow";
+      BgColor["Yellow"] = "--yellow";
+    })(BgColor || (BgColor = {}));
     /***/
 
   },
