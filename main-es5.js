@@ -2584,19 +2584,18 @@
     /* harmony import */
 
 
-    var _services_progress_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ../../services/progress.service */
-    "./src/app/services/progress.service.ts");
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
+    var _services_progress_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ../../services/progress.service */
+    "./src/app/services/progress.service.ts");
 
     let CoinsComponent = class CoinsComponent {
       constructor(progressService, location) {
-        this.progressService = progressService;
         this.location = location;
         this.coins = progressService.getCoins();
         this.cars = Math.floor(this.coins / 250);
@@ -2617,9 +2616,9 @@
     };
 
     CoinsComponent.ctorParameters = () => [{
-      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_2__["ProgressService"]
+      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_3__["ProgressService"]
     }, {
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_3__["Location"]
+      type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
     CoinsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -2813,7 +2812,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -2905,7 +2905,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -2997,7 +2998,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -3292,7 +3294,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -3535,7 +3538,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -3662,7 +3666,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -3871,8 +3876,7 @@
       }
 
       getDisplay(item) {
-        var icon = document.getElementById('puzzle');
-
+        //var icon = document.getElementById('puzzle');
         if (item != null) {
           this.showProgress(item);
 
@@ -3887,7 +3891,7 @@
       showProgress(item) {
         let numGoldStars;
         let numSilverStars;
-        let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
+        let elem = document.getElementsByClassName('cardListItem')[this.cardItemCount];
         let queryStatement;
 
         if (item != null) {
@@ -3895,11 +3899,11 @@
             this.cardItemCount++;
 
             if (this.list === 'alphabet') {
-              queryStatement = "letter" + item.letter;
+              queryStatement = 'letter' + item.letter;
               numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
               numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
             } else {
-              queryStatement = "phoneme" + item.id;
+              queryStatement = 'phoneme' + item.id;
               numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
               numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
             }
@@ -3908,7 +3912,7 @@
               this.dataProgress.push(item);
             }
 
-            if (numGoldStars >= 5 && this.list == "alphabet") {
+            if (numGoldStars >= 5 && this.list == 'alphabet') {
               this.progressService.setCheckMark(queryStatement, true);
             }
 
@@ -3925,9 +3929,9 @@
                 }
               }
 
-              img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png');
-              img.setAttribute("width", '25px');
-              img.setAttribute("height", '25px');
+              img.setAttribute('src', '/assets/img/progress/Gold-Star-Blank.png');
+              img.setAttribute('width', '25px');
+              img.setAttribute('height', '25px');
               img.style.marginLeft = '2vh';
               elem.appendChild(img);
             }
@@ -3941,9 +3945,9 @@
                 img.style.transform = 'translateY(-33vh)';
               }
 
-              img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png');
-              img.setAttribute("width", '25px');
-              img.setAttribute("height", '25px');
+              img.setAttribute('src', '/assets/img/progress/Silver-Star-Blank.png');
+              img.setAttribute('width', '25px');
+              img.setAttribute('height', '25px');
               img.style.marginLeft = '2vh';
               elem.appendChild(img);
             } // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
@@ -3962,9 +3966,9 @@
                 }
               }
 
-              img.setAttribute("src", '/assets/img/progress/check_mark.png');
-              img.setAttribute("width", '46px');
-              img.setAttribute("height", '46px');
+              img.setAttribute('src', '/assets/img/progress/check_mark.png');
+              img.setAttribute('width', '46px');
+              img.setAttribute('height', '46px');
 
               if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
                 img.style.marginLeft = '10.8vh';
@@ -5096,29 +5100,22 @@
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-    /* harmony import */
-
-
-    var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ../../services/phonemes.service */
     "./src/app/services/phonemes.service.ts");
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! @angular/common/http */
     "./node_modules/@angular/common/fesm2015/http.js");
 
     let PhonemeQuizComponent = class PhonemeQuizComponent {
-      constructor(storage, transferService, phonemeProgressService, router, location, activatedRoute, phonemesService, changeDetectorRef, http) {
+      constructor(storage, transferService, phonemeProgressService, router, activatedRoute, phonemesService, changeDetectorRef, http) {
         this.storage = storage;
         this.transferService = transferService;
         this.phonemeProgressService = phonemeProgressService;
         this.router = router;
-        this.location = location;
         this.activatedRoute = activatedRoute;
         this.phonemesService = phonemesService;
         this.changeDetectorRef = changeDetectorRef;
@@ -5210,16 +5207,16 @@
 
         this.longVowelList = []; //Only generate the list if the phoneme selected is a vowel sound
 
-        if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
+        if (this.phoneme.category.includes('V-long') || this.phoneme.category.includes('V-short')) {
           _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.forEach(element => {
-            if (element["category"].includes("V-long") && !element["id"].includes(this.phoneme.id.charAt(0))) {
-              this.longVowelList = [].concat(this.longVowelList, element["quiz-words"]);
+            if (element['category'].includes('V-long') && !element['id'].includes(this.phoneme.id.charAt(0))) {
+              this.longVowelList = [].concat(this.longVowelList, element['quiz-words']);
             }
           });
         } //Generate a list for schwas
 
 
-        if (this.phoneme.category.includes("V-schwa")) {
+        if (this.phoneme.category.includes('V-schwa')) {
           this.schwasList = _assets_json_incorrect_schwas_json__WEBPACK_IMPORTED_MODULE_9__;
         }
 
@@ -5372,16 +5369,16 @@
 
         if (this.isFirstAttempt) {
           this.phonemeProgressService.addPuzzlePieces(this.phoneme.id, 2);
-          this.phonemeProgressService.addCoins("phoneme" + this.phoneme.id, 2); //add stars to progress if select correct phoneme on first attempt
+          this.phonemeProgressService.addCoins('phoneme' + this.phoneme.id, 2); //add stars to progress if select correct phoneme on first attempt
 
-          this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
+          this.phonemeProgressService.saveStarsToKey('phoneme' + this.phoneme.id + 'gold', 1);
 
-          if (this.phonemeProgressService.getSilverStarsFromKey("phoneme" + this.phoneme.id) > 0) {
-            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", -1);
+          if (this.phonemeProgressService.getSilverStarsFromKey('phoneme' + this.phoneme.id) > 0) {
+            this.phonemeProgressService.saveStarsToKey('phoneme' + this.phoneme.id + 'silv', -1);
           }
         } else {
           this.phonemeProgressService.addPuzzlePieces(this.phoneme.id, 1);
-          this.phonemeProgressService.addCoins("phoneme" + this.phoneme.id, 1);
+          this.phonemeProgressService.addCoins('phoneme' + this.phoneme.id, 1);
         }
 
         this.phoneme.puzzlePiecesEarned = this.phonemeProgressService.getPuzzlePieces(this.phoneme.id);
@@ -5409,7 +5406,7 @@
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
           // Add checkmark
-          this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true); // Update puzzle view
+          this.phonemeProgressService.setCheckMark('phoneme' + this.phoneme.id, true); // Update puzzle view
 
           this.puzzleAnimate = true;
           Object(q__WEBPACK_IMPORTED_MODULE_4__["delay"])(900).then(() => {
@@ -5422,7 +5419,7 @@
             this.transferService.setData(this.phoneme);
             this.router.navigate(['puzzle'], {
               queryParams: {
-                'from': 'quiz'
+                from: 'quiz'
               }
             });
           } else {
@@ -5462,7 +5459,7 @@
           this.transferService.setData(this.phoneme);
           this.router.navigate(['puzzle'], {
             queryParams: {
-              'from': 'quiz'
+              from: 'quiz'
             }
           });
         }
@@ -5501,7 +5498,7 @@
           positiveExample = this.phoneme.quizWords[Math.floor(Math.random() * this.phoneme.quizWords.length)];
         }
 
-        var examples = ["test", "one", "two"];
+        var examples = ['test', 'one', 'two'];
         var first = this.generateNegativeExample(positiveExamples);
         var second = this.generateSecondNegativeExample(positiveExamples, first);
         examples = [positiveExample, first, second];
@@ -5513,104 +5510,104 @@
           return false;
         }
 
-        if ((this.phoneme.id == "E-long" || this.phoneme.id == "I-long") && example.includes("y")) {
+        if ((this.phoneme.id == 'E-long' || this.phoneme.id == 'I-long') && example.includes('y')) {
           return false;
         } //Lockout for long/short vowels and schwas to make sure they don't have to go through the checks
 
 
-        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-schwa")) {
+        if (this.phoneme.category.includes('V-short') || this.phoneme.category.includes('V-long') || this.phoneme.category.includes('V-schwa')) {
           return true; //returns true because the logic in the making of the list has been checked
         }
 
-        if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
+        if ((this.phoneme.id == 'G-GH' || this.phoneme.id.includes('F-fuh') || this.phoneme.id.includes('P-PH')) && (example.includes('f') || example.includes('ph') || example.includes('gh'))) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("Z-zzz") || this.phoneme.id == "S-zz" || this.phoneme.id == "S-SC-silent") && (example.includes("s") || example.includes("z"))) {
+        if ((this.phoneme.id.includes('Z-zzz') || this.phoneme.id == 'S-zz' || this.phoneme.id == 'S-SC-silent') && (example.includes('s') || example.includes('z'))) {
           return false;
         }
 
-        if ((this.phoneme.id == "A-AI" || this.phoneme.id == "E-EI") && (example.includes("ei") || example.includes("a"))) {
+        if ((this.phoneme.id == 'A-AI' || this.phoneme.id == 'E-EI') && (example.includes('ei') || example.includes('a'))) {
           return false;
         }
 
-        if ((this.phoneme.id == "A-AU" || this.phoneme.id == "A-AW") && (example.includes("o") || example.includes("a"))) {
+        if ((this.phoneme.id == 'A-AU' || this.phoneme.id == 'A-AW') && (example.includes('o') || example.includes('a'))) {
           return false;
         }
 
-        if (this.phoneme.id == "A-AY" && example.includes("a")) {
+        if (this.phoneme.id == 'A-AY' && example.includes('a')) {
           return false;
         }
 
-        if (this.phoneme.id == "C-sss" && example.includes("s")) {
+        if (this.phoneme.id == 'C-sss' && example.includes('s')) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("C-CK") || this.phoneme.id.includes("K-kuh")) && (example.includes("c") || example.includes("k"))) {
+        if ((this.phoneme.id.includes('C-CK') || this.phoneme.id.includes('K-kuh')) && (example.includes('c') || example.includes('k'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("E") && example.includes("e")) {
+        if (this.phoneme.category.includes('E') && example.includes('e')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("E-E") && (example.includes('e') || example.includes('a'))) {
+        if (this.phoneme.id.includes('E-E') && (example.includes('e') || example.includes('a'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("R") && example.includes("r")) {
+        if (this.phoneme.category.includes('R') && example.includes('r')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("E-ET") && example.includes('et')) {
+        if (this.phoneme.id.includes('E-ET') && example.includes('et')) {
           return false;
         }
 
-        if (this.phoneme.id == "E-EW" && (example.includes("o") || example.includes("u"))) {
+        if (this.phoneme.id == 'E-EW' && (example.includes('o') || example.includes('u'))) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("N-silent") || this.phoneme.id.includes("N-nnn")) && example.includes("n")) {
+        if ((this.phoneme.id.includes('N-silent') || this.phoneme.id.includes('N-nnn')) && example.includes('n')) {
           return false;
         }
 
-        if (this.phoneme.id.charAt(0) == "I" && (example.includes("i") || example.includes("e"))) {
+        if (this.phoneme.id.charAt(0) == 'I' && (example.includes('i') || example.includes('e'))) {
           return false;
         }
 
-        if (this.phoneme.id == "L-LE" && example.includes("l")) {
+        if (this.phoneme.id == 'L-LE' && example.includes('l')) {
           return false;
         }
 
-        if ((this.phoneme.id == "M-MB-silent" || this.phoneme.id.includes("M-mmm")) && example.includes("m")) {
+        if ((this.phoneme.id == 'M-MB-silent' || this.phoneme.id.includes('M-mmm')) && example.includes('m')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u"))) {
+        if (this.phoneme.id.includes('O') && (example.includes('o') || example.includes('u'))) {
           return false;
         }
 
-        if (this.phoneme.id == "T-TCH-silent" && (example.includes("ch") || example.includes("sh"))) {
+        if (this.phoneme.id == 'T-TCH-silent' && (example.includes('ch') || example.includes('sh'))) {
           return false;
         }
 
-        if (this.phoneme.id.includes("TH") && example.includes("th")) {
+        if (this.phoneme.id.includes('TH') && example.includes('th')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("W-W") && example.includes("w")) {
+        if (this.phoneme.id.includes('W-W') && example.includes('w')) {
           return false;
         }
 
-        if (this.phoneme.id == "W-WR-silent" && example.includes("r")) {
+        if (this.phoneme.id == 'W-WR-silent' && example.includes('r')) {
           return false;
         }
 
-        if (this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i"))) {
+        if (this.phoneme.category.includes('Y') && (example.includes('e') || example.includes('i'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("CG") && example.includes("j")) {
+        if (this.phoneme.category.includes('CG') && example.includes('j')) {
           return false;
         }
 
@@ -5626,104 +5623,104 @@
           return false;
         }
 
-        if ((this.phoneme.id == "E-long" || this.phoneme.id == "I-long") && example.includes("y")) {
+        if ((this.phoneme.id == 'E-long' || this.phoneme.id == 'I-long') && example.includes('y')) {
           return false;
         } //Lockout for long/short vowels to make sure they don't have to go through the checks
 
 
-        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-schwa")) {
+        if (this.phoneme.category.includes('V-short') || this.phoneme.category.includes('V-long') || this.phoneme.category.includes('V-schwa')) {
           return true; //returns true because the logic in the making of the list has been checked
         }
 
-        if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
+        if ((this.phoneme.id == 'G-GH' || this.phoneme.id.includes('F-fuh') || this.phoneme.id.includes('P-PH')) && (example.includes('f') || example.includes('ph') || example.includes('gh'))) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("Z-zzz") || this.phoneme.id == "S-zz" || this.phoneme.id == "S-SC-silent") && (example.includes("s") || example.includes("z"))) {
+        if ((this.phoneme.id.includes('Z-zzz') || this.phoneme.id == 'S-zz' || this.phoneme.id == 'S-SC-silent') && (example.includes('s') || example.includes('z'))) {
           return false;
         }
 
-        if ((this.phoneme.id == "A-AI" || this.phoneme.id == "E-EI") && (example.includes("ei") || example.includes("a"))) {
+        if ((this.phoneme.id == 'A-AI' || this.phoneme.id == 'E-EI') && (example.includes('ei') || example.includes('a'))) {
           return false;
         }
 
-        if ((this.phoneme.id == "A-AU" || this.phoneme.id == "A-AW") && (example.includes("o") || example.includes("a"))) {
+        if ((this.phoneme.id == 'A-AU' || this.phoneme.id == 'A-AW') && (example.includes('o') || example.includes('a'))) {
           return false;
         }
 
-        if (this.phoneme.id == "A-AY" && example.includes("a")) {
+        if (this.phoneme.id == 'A-AY' && example.includes('a')) {
           return false;
         }
 
-        if (this.phoneme.id == "C-sss" && example.includes("s")) {
+        if (this.phoneme.id == 'C-sss' && example.includes('s')) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("C-CK") || this.phoneme.id.includes("K-kuh")) && (example.includes("c") || example.includes("k"))) {
+        if ((this.phoneme.id.includes('C-CK') || this.phoneme.id.includes('K-kuh')) && (example.includes('c') || example.includes('k'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("E") && example.includes("e")) {
+        if (this.phoneme.category.includes('E') && example.includes('e')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("E-E") && (example.includes('e') || example.includes('a'))) {
+        if (this.phoneme.id.includes('E-E') && (example.includes('e') || example.includes('a'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("R") && example.includes("r")) {
+        if (this.phoneme.category.includes('R') && example.includes('r')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("E-ET") && example.includes('et')) {
+        if (this.phoneme.id.includes('E-ET') && example.includes('et')) {
           return false;
         }
 
-        if (this.phoneme.id == "E-EW" && (example.includes("o") || example.includes("u"))) {
+        if (this.phoneme.id == 'E-EW' && (example.includes('o') || example.includes('u'))) {
           return false;
         }
 
-        if ((this.phoneme.id.includes("N-silent") || this.phoneme.id.includes("N-nnn")) && example.includes("n")) {
+        if ((this.phoneme.id.includes('N-silent') || this.phoneme.id.includes('N-nnn')) && example.includes('n')) {
           return false;
         }
 
-        if (this.phoneme.id.charAt(0) == "I" && (example.includes("i") || example.includes("e"))) {
+        if (this.phoneme.id.charAt(0) == 'I' && (example.includes('i') || example.includes('e'))) {
           return false;
         }
 
-        if (this.phoneme.id == "L-LE" && example.includes("l")) {
+        if (this.phoneme.id == 'L-LE' && example.includes('l')) {
           return false;
         }
 
-        if ((this.phoneme.id == "M-MB-silent" || this.phoneme.id.includes("M-mmm")) && example.includes("m")) {
+        if ((this.phoneme.id == 'M-MB-silent' || this.phoneme.id.includes('M-mmm')) && example.includes('m')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u"))) {
+        if (this.phoneme.id.includes('O') && (example.includes('o') || example.includes('u'))) {
           return false;
         }
 
-        if (this.phoneme.id == "T-TCH-silent" && (example.includes("ch") || example.includes("sh"))) {
+        if (this.phoneme.id == 'T-TCH-silent' && (example.includes('ch') || example.includes('sh'))) {
           return false;
         }
 
-        if (this.phoneme.id.includes("TH") && example.includes("th")) {
+        if (this.phoneme.id.includes('TH') && example.includes('th')) {
           return false;
         }
 
-        if (this.phoneme.id.includes("W-W") && example.includes("w")) {
+        if (this.phoneme.id.includes('W-W') && example.includes('w')) {
           return false;
         }
 
-        if (this.phoneme.id == "W-WR-silent" && example.includes("r")) {
+        if (this.phoneme.id == 'W-WR-silent' && example.includes('r')) {
           return false;
         }
 
-        if (this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i"))) {
+        if (this.phoneme.category.includes('Y') && (example.includes('e') || example.includes('i'))) {
           return false;
         }
 
-        if (this.phoneme.category.includes("CG") && example.includes("j")) {
+        if (this.phoneme.category.includes('CG') && example.includes('j')) {
           return false;
         }
 
@@ -5751,15 +5748,15 @@
       }
 
       randomQuizWord() {
-        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.length)]["quiz-words"]; //Use only the long vowel list if the quiz phoneme is a vowel sound
+        var quizWords = _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__[Math.floor(Math.random() * _assets_json_phonemes_json__WEBPACK_IMPORTED_MODULE_7__.length)]['quiz-words']; //Use only the long vowel list if the quiz phoneme is a vowel sound
 
 
-        if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
+        if (this.phoneme.category.includes('V-long') || this.phoneme.category.includes('V-short')) {
           quizWords = this.longVowelList;
         } //Use the schwa list if the quiz phoneme is a schwa
 
 
-        if (this.phoneme.category.includes("V-schwa")) {
+        if (this.phoneme.category.includes('V-schwa')) {
           quizWords = this.schwasList;
         }
 
@@ -5799,11 +5796,11 @@
         if (!this.hasGuessed) {
           this.hasGuessed = true;
           this.isFirstAttempt = false;
-          const goldStarNum = this.phonemeProgressService.getGoldStarsFromKey("phoneme" + this.phoneme.id);
+          const goldStarNum = this.phonemeProgressService.getGoldStarsFromKey('phoneme' + this.phoneme.id);
 
           if (goldStarNum > 0 && goldStarNum < 5) {
-            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", -1);
-            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", 1);
+            this.phonemeProgressService.saveStarsToKey('phoneme' + this.phoneme.id + 'gold', -1);
+            this.phonemeProgressService.saveStarsToKey('phoneme' + this.phoneme.id + 'silv', 1);
           }
         }
 
@@ -5826,16 +5823,16 @@
       }
 
       submitAnalyticEvent(phonemeId) {
-        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpHeaders"]({
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpHeaders"]({
           'Content-Type': 'application/json',
-          'Authorization': "Bearer ".concat(this.storage.get('token'))
+          Authorization: "Bearer ".concat(this.storage.get('token'))
         });
         return this.http.post('http://localhost:3000/api/analytics/application', {
           student: this.storage.get('user_id'),
           program: '5f087dc650084d0851a04b5b',
           focus_item_name: "phoneme_".concat(phonemeId),
           focus_item_unit: this.storage.get('unit'),
-          focus_item_subunit: "phoneme",
+          focus_item_subunit: 'phoneme',
           time_spent: Date.now() - this.answerStartTime,
           correct_on: this.numberOfAttempts
         }, {
@@ -5858,15 +5855,13 @@
     }, {
       type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
     }, {
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_10__["Location"]
-    }, {
       type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
     }, {
-      type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_11__["PhonemesService"]
+      type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_10__["PhonemesService"]
     }, {
       type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]
     }, {
-      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"]
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"]
     }];
 
     PhonemeQuizComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
@@ -5991,7 +5986,8 @@
         this.storage.set('unit', 'PRE-K');
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -6097,10 +6093,9 @@
     "./node_modules/@angular/router/fesm2015/router.js");
 
     let PuzzleComponent = class PuzzleComponent {
-      constructor(transferService, location, router, activatedRoute) {
+      constructor(transferService, location, activatedRoute) {
         this.transferService = transferService;
         this.location = location;
-        this.router = router;
         this.activatedRoute = activatedRoute;
         let from = this.activatedRoute.snapshot.queryParamMap.get('from'); // get phoneme data
 
@@ -6166,8 +6161,6 @@
       type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_3__["TransferLetterService"]
     }, {
       type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
-    }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
     }, {
       type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]
     }];
@@ -6237,9 +6230,9 @@
     /* harmony import */
 
 
-    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ../../services/transfer-letter-service.service */
-    "./src/app/services/transfer-letter-service.service.ts");
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
     /* harmony import */
 
 
@@ -6249,29 +6242,28 @@
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _services_progress_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../services/progress.service */
+    "./src/app/services/progress.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-    /* harmony import */
-
-
-    var _services_progress_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ../../services/progress.service */
-    "./src/app/services/progress.service.ts");
+    var _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ../../services/transfer-letter-service.service */
+    "./src/app/services/transfer-letter-service.service.ts");
 
     let PuzzlesComponent = class PuzzlesComponent {
-      constructor(transferLetterService, phonemesService, progressService, router, activatedRoute, location) {
+      constructor(transferLetterService, phonemesService, progressService, router, location) {
         this.transferLetterService = transferLetterService;
         this.phonemesService = phonemesService;
         this.progressService = progressService;
         this.router = router;
-        this.activatedRoute = activatedRoute;
         this.location = location; // load phonemes data
 
         this.data = this.phonemesService.dataLoad('phoneme', '', false);
@@ -6283,7 +6275,7 @@
       ngAfterViewInit() {
         // set background for completed puzzles
         for (var i = 0; i < this.progressService.getPuzzles().length; i++) {
-          document.getElementById(this.progressService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-" + this.progressService.getPuzzles()[i] + "/puzzle-" + this.progressService.getPuzzles()[i] + "-composite.png')";
+          document.getElementById(this.progressService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-" + this.progressService.getPuzzles()[i] + '/puzzle-' + this.progressService.getPuzzles()[i] + "-composite.png')";
           document.getElementById(this.progressService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
           document.getElementById(this.progressService.getPuzzles()[i]).style.color = 'transparent';
         }
@@ -6314,17 +6306,15 @@
     };
 
     PuzzlesComponent.ctorParameters = () => [{
-      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_2__["TransferLetterService"]
+      type: _services_transfer_letter_service_service__WEBPACK_IMPORTED_MODULE_6__["TransferLetterService"]
     }, {
       type: _services_phonemes_service__WEBPACK_IMPORTED_MODULE_3__["PhonemesService"]
     }, {
-      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_6__["ProgressService"]
+      type: _services_progress_service__WEBPACK_IMPORTED_MODULE_4__["ProgressService"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
     }, {
-      type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]
-    }, {
-      type: _angular_common__WEBPACK_IMPORTED_MODULE_5__["Location"]
+      type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]
     }];
 
     PuzzlesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -6582,7 +6572,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -6709,7 +6700,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -7073,7 +7065,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -7200,7 +7193,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -7327,7 +7321,8 @@
         this.location = location;
       }
 
-      playAudio(event) {// this.category = new Audio();
+      playAudio(event) {
+        event.preventDefault(); // this.category = new Audio();
         // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         // if (this.category.src !== undefined) {
         //     this.category.load();
@@ -7747,18 +7742,6 @@
     var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! angular-webstorage-service */
     "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.js");
-    /* harmony import */
-
-
-    var _user_service_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./user-service.service */
-    "./src/app/services/user-service.service.ts");
-    /* harmony import */
-
-
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/fesm2015/http.js");
 
     const coinKey = 'COINS';
     const completePuzzlesKey = 'COMPLETED_PUZZLES';
@@ -7766,10 +7749,8 @@
     const timeOverallKey = 'TIME_OVERALL';
     const dateKey = 'DATE_LAST_SESSION';
     let ProgressService = class ProgressService {
-      constructor(storage, userService, http) {
+      constructor(storage) {
         this.storage = storage;
-        this.userService = userService;
-        this.http = http;
         this.storage.set('hasReceivedPhonemeInstruction', false);
         this.storage.set('hasReceivedAlphabetInstruction', false);
       }
@@ -7785,13 +7766,13 @@
 
       prepareNewKeyProgress() {
         return {
-          'gold_stars': 0,
-          'silver_stars': 0,
-          'active': true,
-          'checkmark': false,
-          'coins': 0,
-          'puzzle_pieces': 0,
-          'incorrect_answers': 0
+          gold_stars: 0,
+          silver_stars: 0,
+          active: true,
+          checkmark: false,
+          coins: 0,
+          puzzle_pieces: 0,
+          incorrect_answers: 0
         };
       }
 
@@ -7823,7 +7804,7 @@
         if (this.storage.get(actualKey) == null) {
           input = this.prepareNewKeyProgress();
 
-          if (key.includes("gold")) {
+          if (key.includes('gold')) {
             input.gold_stars += val;
           } else {
             input.silver_stars += val;
@@ -7831,8 +7812,8 @@
         } else {
           input = this.storage.get(actualKey);
 
-          if (key.includes("gold")) {
-            if (input.gold_stars + val >= 5 && actualKey.includes("letter")) {
+          if (key.includes('gold')) {
+            if (input.gold_stars + val >= 5 && actualKey.includes('letter')) {
               input.checkmark = true;
               input.gold_stars = 5;
             } else if (input.gold_stars + val >= 5) {
@@ -7976,10 +7957,6 @@
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
         args: [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_2__["SESSION_STORAGE"]]
       }]
-    }, {
-      type: _user_service_service__WEBPACK_IMPORTED_MODULE_3__["UserService"]
-    }, {
-      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]
     }];
 
     ProgressService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
