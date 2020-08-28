@@ -1,15 +1,17 @@
-#main-body {
-    width: 169.7vh;
-    height: 0vh;
-    padding-left: 40vh;
-    position: relative;
-  }
-  
-  #background {
-      background-color: #FFFFFF !important;
-  }
+:host {
+  display: flex;
+}
 
-  img {
-      height: 30vh;
-      margin: 30vh 0vh 0vh 10vh;
+.main {
+  width: 100%;
+}
+
+/* force landscape mode */
+@media only screen and (orientation: portrait) {
+  :host {
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: top left;
+    height: 100vw;
+    width: 100vh;
   }
+}

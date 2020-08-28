@@ -1,0 +1,33 @@
+<section id="background">
+  <h1 class="menu__title" [ngStyle]="menu.fontStyle">{{ menu.title }}</h1>
+  <h2 *ngIf="!isWSMenu" class="menu_subtitle" [ngStyle]="menu.fontStyle">
+    {{ menu.subtitle }}
+  </h2>
+  <div class="buttons-container" [ngClass]="{ 'figures-of-speech': !isWSMenu }">
+    <div
+      [ngClass]="{ 'figures-of-speech': !isWSMenu }"
+      *ngFor="let option of menu.options; index as i"
+    >
+      <button
+        class="menu__button"
+        [ngClass]="{ 'figures-of-speech': !isWSMenu }"
+        routerLink="learn"
+        [style.background-color]="bgColor(option.color)"
+      >
+        <h2
+          class="menu__text"
+          [ngStyle]="menu.fontStyle"
+          [ngClass]="{ 'figures-of-speech': !isWSMenu }"
+          [innerHTML]="addIndexText(i, option.text)"
+        ></h2>
+      </button>
+    </div>
+    <button
+      *ngIf="isWSMenu"
+      class="menu__button--last-row"
+      routerLink="figures-of-speech"
+    >
+      Figures of Speech
+    </button>
+  </div>
+</section>
