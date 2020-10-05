@@ -35,6 +35,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     quizAll: string;
     capital: string;
+    pre_category: strign;
     key: number;
     hasGuessed: boolean;
 
